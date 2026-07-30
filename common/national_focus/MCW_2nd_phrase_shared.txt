@@ -1,0 +1,467 @@
+shared_focus = {
+	id = MCW_2nd_years
+	x = 6
+	y = 0
+	cost = 0
+	continue_if_invalid = no
+	cancel_if_invalid = no
+}
+shared_focus = {
+	id = MCW_force
+	x = -2
+	y = 1
+	cost = 0
+	continue_if_invalid = no
+	cancel_if_invalid = no
+	prerequisite = {
+		focus = MCW_2nd_years
+	}
+	relative_position_id = MCW_2nd_years
+}
+shared_focus = {
+	id = MCW_economy
+	x = 2
+	y = 1
+	cost = 0
+	continue_if_invalid = no
+	cancel_if_invalid = no
+	prerequisite = {
+		focus = MCW_2nd_years
+	}
+	relative_position_id = MCW_2nd_years
+}
+shared_focus = {
+	id = MCW_reunite_south
+	x = 0
+	y = 2
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_force
+	mutually_exclusive = {
+		focus = MCW_007
+	}
+	prerequisite = {
+		focus = MCW_force
+	}
+	prerequisite = {
+		focus = MCW_economy
+	}
+}
+shared_focus = {
+	id = MCW_train_CYL
+	x = -2
+	y = 2
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_force
+	prerequisite = {
+		focus = MCW_force
+	}
+}
+shared_focus = {
+	id = MCW_007
+	x = 0
+	y = 2
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_economy
+	mutually_exclusive = {
+		focus = MCW_reunite_south
+	}
+	prerequisite = {
+		focus = MCW_economy
+	}
+	prerequisite = {
+		focus = MCW_force
+	}
+}
+shared_focus = {
+	id = MCW_jin_kela
+	x = 2
+	y = 2
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_economy
+	prerequisite = {
+		focus = MCW_economy
+	}
+}
+shared_focus = {
+	id = MCW_rob_of_reich
+	x = -2
+	y = 1
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_factory_off
+	mutually_exclusive = {
+		focus = MCW_look_for_equipment
+	}
+	prerequisite = {
+		focus = MCW_factory_off
+	}
+}
+shared_focus = {
+	id = MCW_factory_off
+	x = 6
+	y = 1
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_economy
+	prerequisite = {
+		focus = MCW_economy
+	}
+}
+shared_focus = {
+	id = MCW_look_for_equipment
+	x = 2
+	y = 1
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_factory_off
+	mutually_exclusive = {
+		focus = MCW_rob_of_reich
+	}
+	prerequisite = {
+		focus = MCW_factory_off
+	}
+}
+shared_focus = {
+	id = MCW_mice
+	x = -2
+	y = 3
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_factory_off
+	mutually_exclusive = {
+		focus = MCW_dev_Volga
+	}
+	prerequisite = {
+		focus = MCW_rob_of_reich
+	}
+	prerequisite = {
+		focus = MCW_look_for_equipment
+	}
+}
+shared_focus = {
+	id = MCW_dev_Volga
+	x = 2
+	y = 3
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_factory_off
+	mutually_exclusive = {
+		focus = MCW_mice
+	}
+	prerequisite = {
+		focus = MCW_look_for_equipment
+	}
+}
+shared_focus = {
+	id = MCW_shopping_in_caucasus
+	x = -2
+	y = 5
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_factory_off
+	mutually_exclusive = {
+		focus = MCW_sale_in_Tsaritsyn
+	}
+	prerequisite = {
+		focus = MCW_mice
+	}
+	prerequisite = {
+		focus = MCW_dev_Volga
+	}
+}
+shared_focus = {
+	id = MCW_sale_in_Tsaritsyn
+	x = 8
+	y = 6
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_economy
+	mutually_exclusive = {
+		focus = MCW_shopping_in_caucasus
+	}
+	prerequisite = {
+		focus = MCW_dev_Volga
+	}
+	prerequisite = {
+		focus = MCW_mice
+	}
+}
+shared_focus = {
+	id = MCW_search_workers
+	x = 2
+	y = 4
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_economy
+	prerequisite = {
+		focus = MCW_jin_kela
+	}
+}
+shared_focus = {
+	id = MCW_renew_mechine
+	x = 2
+	y = 6
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_economy
+	prerequisite = {
+		focus = MCW_search_workers
+	}
+}
+shared_focus = {
+	id = MCW_lure_enemy
+	x = 0
+	y = 4
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_economy
+	mutually_exclusive = {
+		focus = MCW_strategic_decisive_battle
+	}
+	prerequisite = {
+		focus = MCW_007
+	}
+	prerequisite = {
+		focus = MCW_reunite_south
+	}
+}
+shared_focus = {
+	id = MCW_learn_from_China's_experience
+	x = 0
+	y = 6
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_economy
+	mutually_exclusive = {
+		focus = MCW_Heed_own_experience
+	}
+	prerequisite = {
+		focus = MCW_lure_enemy
+	}
+}
+shared_focus = {
+	id = MCW_strategic_decisive_battle
+	x = 0
+	y = 4
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_force
+	mutually_exclusive = {
+		focus = MCW_lure_enemy
+	}
+	prerequisite = {
+		focus = MCW_reunite_south
+	}
+	prerequisite = {
+		focus = MCW_007
+	}
+}
+shared_focus = {
+	id = MCW_Heed_own_experience
+	x = 0
+	y = 6
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_force
+	mutually_exclusive = {
+		focus = MCW_learn_from_China's_experience
+	}
+	prerequisite = {
+		focus = MCW_strategic_decisive_battle
+	}
+	prerequisite = {
+		focus = MCW_lure_enemy
+	}
+}
+shared_focus = {
+	id = MCW_callup_hunter
+	x = -2
+	y = 4
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_force
+	prerequisite = {
+		focus = MCW_train_CYL
+	}
+}
+shared_focus = {
+	id = MCW_kill_bandit
+	x = -2
+	y = 6
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_force
+	prerequisite = {
+		focus = MCW_callup_hunter
+	}
+}
+shared_focus = {
+	id = MCW_tired_army
+	x = -6
+	y = 1
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_force
+	prerequisite = {
+		focus = MCW_force
+	}
+}
+shared_focus = {
+	id = MCW_from_peopke
+	x = -4
+	y = 2
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_force
+	mutually_exclusive = {
+		focus = MCW_receive_ROA
+	}
+	prerequisite = {
+		focus = MCW_tired_army
+	}
+}
+shared_focus = {
+	id = MCW_unlock_arsenal
+	x = -4
+	y = 4
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_force
+	mutually_exclusive = {
+		focus = MCW_storm_to_Tsaritsyn
+	}
+	prerequisite = {
+		focus = MCW_from_peopke
+	}
+	prerequisite = {
+		focus = MCW_receive_ROA
+	}
+}
+shared_focus = {
+	id = MCW_guerrilla_warfare
+	x = -4
+	y = 6
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_force
+	mutually_exclusive = {
+		focus = MCW_prepare_for_assault
+	}
+	prerequisite = {
+		focus = MCW_unlock_arsenal
+	}
+	prerequisite = {
+		focus = MCW_storm_to_Tsaritsyn
+	}
+}
+shared_focus = {
+	id = MCW_receive_ROA
+	x = -8
+	y = 2
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_force
+	mutually_exclusive = {
+		focus = MCW_from_peopke
+	}
+	prerequisite = {
+		focus = MCW_tired_army
+	}
+}
+shared_focus = {
+	id = MCW_storm_to_Tsaritsyn
+	x = -8
+	y = 4
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_force
+	mutually_exclusive = {
+		focus = MCW_unlock_arsenal
+	}
+	prerequisite = {
+		focus = MCW_receive_ROA
+	}
+	prerequisite = {
+		focus = MCW_from_peopke
+	}
+}
+shared_focus = {
+	id = MCW_prepare_for_assault
+	x = -8
+	y = 6
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_force
+	mutually_exclusive = {
+		focus = MCW_guerrilla_warfare
+	}
+	prerequisite = {
+		focus = MCW_storm_to_Tsaritsyn
+	}
+	prerequisite = {
+		focus = MCW_unlock_arsenal
+	}
+}
+shared_focus = {
+	id = MCW_end_of_spring
+	x = 0
+	y = 8
+	cost = 0
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	relative_position_id = MCW_2nd_years
+	prerequisite = {
+		focus = MCW_Heed_own_experience
+	}
+	prerequisite = {
+		focus = MCW_learn_from_China's_experience
+	}
+	prerequisite = {
+		focus = MCW_kill_bandit
+	}
+	prerequisite = {
+		focus = MCW_renew_mechine
+	}
+	prerequisite = {
+		focus = MCW_prepare_for_assault
+	}
+	prerequisite = {
+		focus = MCW_guerrilla_warfare
+	}
+	prerequisite = {
+		focus = MCW_shopping_in_caucasus
+	}
+	prerequisite = {
+		focus = MCW_sale_in_Tsaritsyn
+	}
+}

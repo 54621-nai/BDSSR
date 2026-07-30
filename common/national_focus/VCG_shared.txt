@@ -1,0 +1,263 @@
+shared_focus = {
+	id = VCG_emergency_status
+	x = 4
+	y = 0
+	cost = 2
+	icon = GFX_VCG_emergency_status
+	cancel_if_invalid = yes
+
+	ai_will_do = {
+		base = 10
+	}
+}
+shared_focus = {
+	id = VCG_begining_of_all
+	x = 0
+	y = 1
+	cost = 0.5
+	icon = GFX_VCG_beginning_of_all
+
+	prerequisite = {
+		focus = VCG_emergency_status
+	}
+	ai_will_do = {
+		base = 10
+	}
+	relative_position_id = VCG_emergency_status
+}
+shared_focus = {
+	id = VCG_show_our_weapon
+	x = -1
+	y = 2
+	cost = 1
+	icon = GFX_VCG_show_our_weapon
+
+	prerequisite = {
+		focus = VCG_begining_of_all
+	}
+	ai_will_do = {
+		base = 10
+	}
+	relative_position_id = VCG_emergency_status
+}
+
+shared_focus = {
+	id = VCG_enclasp_our_weapon
+	x = 1
+	y = 2
+	cost = 1
+	icon = GFX_VCG_enclasp_our_weapon
+
+	prerequisite = {
+		focus = VCG_begining_of_all
+	}
+	ai_will_do = {
+		base = 10
+	}
+	relative_position_id = VCG_emergency_status
+}
+shared_focus = {
+	id = VCG_fuck_reich
+	x = 0
+	y = 3
+	cost = 1
+	icon = GFX_VCG_fuck_reich
+
+	prerequisite = {
+		focus = VCG_show_our_weapon
+	}
+	prerequisite = {
+		focus = VCG_enclasp_our_weapon
+	}
+	ai_will_do = {
+		base = 2
+	}
+	relative_position_id = VCG_emergency_status
+}
+shared_focus = {
+	id = VCG_union
+	x = -2
+	y = 4
+	cost = 1
+	icon = GFX_VCG_union
+
+	prerequisite = {
+		focus = VCG_fuck_reich
+	}
+	ai_will_do = {
+		base = 2
+	}
+	relative_position_id = VCG_emergency_status
+}
+shared_focus = {
+	id = VCG_togetherness
+	x = 0
+	y = 4
+	cost = 1
+	icon = GFX_VCG_togetherness
+
+	prerequisite = {
+		focus = VCG_fuck_reich
+	}
+	ai_will_do = {
+		base = 2
+	}
+	relative_position_id = VCG_emergency_status
+}
+
+shared_focus = {
+	id = VCG_hope
+	x = 2
+	y = 4
+	cost = 1
+	icon = GFX_VCG_hope
+
+	prerequisite = {
+		focus = VCG_fuck_reich
+	}
+	relative_position_id = VCG_emergency_status
+}
+
+shared_focus = {
+	id = VCG_march_to_victory
+	x = 0
+	y = 5
+	cost = 1
+	icon = GFX_VCG_march_to_victory
+
+	prerequisite = {
+		focus = VCG_union
+	}
+	prerequisite = {
+		focus = VCG_togetherness
+	}
+	prerequisite = {
+		focus = VCG_hope
+	}
+	ai_will_do = {
+		base = 2
+	}
+	relative_position_id = VCG_emergency_status
+}
+
+shared_focus = {
+	id = VCG_wait_and_fight
+	x = -1
+	y = 6
+	cost = 1
+	icon = GFX_VCG_wait_and_fight
+
+	mutually_exclusive = {
+		focus = VCG_quickly_hit
+	}
+	prerequisite = {
+		focus = VCG_march_to_victory
+	}
+	ai_will_do = {
+		base = 2
+	}
+	relative_position_id = VCG_emergency_status
+}
+
+shared_focus = {
+	id = VCG_quickly_hit
+	x = 1
+	y = 6
+	cost = 1
+	icon = GFX_VCG_quickly_hit
+
+	mutually_exclusive = {
+		focus = VCG_wait_and_fight
+	}
+	prerequisite = {
+		focus = VCG_march_to_victory
+	}
+	ai_will_do = {
+		base = 2
+	}
+	relative_position_id = VCG_emergency_status
+}
+
+shared_focus = {
+	id = VCG_last_battle
+	x = 0
+	y = 7
+	cost = 1
+	icon = GFX_VCG_last_battle
+
+	prerequisite = {
+		focus = VCG_wait_and_fight
+		focus = VCG_quickly_hit
+	}
+	ai_will_do = {
+		base = 2
+	}
+	relative_position_id = VCG_emergency_status
+}
+
+shared_focus = {
+	id = VCG_revenge
+	x = -1
+	y = 8
+	cost = 1
+	icon = GFX_VCG_revenge
+
+	prerequisite = {
+		focus = VCG_last_battle
+	}
+	ai_will_do = {
+		base = 2
+	}
+	relative_position_id = VCG_emergency_status
+}
+
+shared_focus = {
+	id = VCG_for_people
+	x = 1
+	y = 8
+	cost = 1
+	icon = GFX_VCG_for_people
+
+	prerequisite = {
+		focus = VCG_last_battle
+	}
+	ai_will_do = {
+		base = 2
+	}
+	relative_position_id = VCG_emergency_status
+}
+
+shared_focus = {
+	id = VCG_new_start
+	x = 0
+	y = 9
+	cost = 1
+	icon = GFX_VCG_new_start
+
+	prerequisite = {
+		focus = VCG_revenge
+	}
+	prerequisite = {
+		focus = VCG_for_people
+	}
+	ai_will_do = {
+		base = 2
+	}
+	relative_position_id = VCG_emergency_status
+}
+
+shared_focus = {
+	id = VCG_bright_future
+	x = 0
+	y = 10
+	cost = 1
+	icon = GFX_VCG_bright_future
+	
+	prerequisite = {
+		focus = VCG_new_start
+	}
+	ai_will_do = {
+		base = 2
+	}
+	relative_position_id = VCG_emergency_status
+}

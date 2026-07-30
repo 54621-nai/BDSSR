@@ -1,0 +1,80 @@
+BDSSR_riot_start = {
+
+
+    MTL = {
+        transfer_state = 239
+        transfer_state = 245
+        transfer_state = 260
+
+        every_owned_state = {
+            add_core_of = PREV
+        }
+    }
+
+    MGG = {
+        transfer_state = 1436
+
+        every_owned_state = {
+            add_core_of = PREV
+        }
+    }
+
+    TTG = {
+        transfer_state = 246
+        transfer_state = 238
+
+        every_owned_state = {
+            add_core_of = PREV
+        }
+    }
+
+    RBL = {
+        transfer_state = 242
+
+        every_owned_state = {
+            add_core_of = PREV
+        }
+    }
+    
+    VCG = {
+        load_focus_tree = VCG_focus
+        if = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+                }
+                create_faction_from_template = { name = Moscow_Anti_Germany_United_Front template = faction_template_generic }
+                add_faction_goal_slot = { category = short_term  value = -10 }
+                add_faction_goal_slot = { category = medium_term value = -10 }
+                add_faction_goal_slot = { category = long_term   value = -10 }
+            else = {
+                create_faction = Moscow_Anti_Germany_United_Front
+            }
+        }
+        add_to_faction = MGG
+        add_to_faction = MTL
+        add_to_faction = RBL
+        add_to_faction = TTG
+        add_ideas = MAGUF_Member
+
+        transfer_state = 217
+        transfer_state = 243
+        transfer_state = 224
+        transfer_state = 210
+        transfer_state = 1441
+
+        every_owned_state = {
+            add_core_of = PREV
+        }
+    }
+
+    every_country = { 
+        limit = {
+            is_in_faction_with = VCG
+            NOT = {
+                tag = VCG
+            }
+        }
+        add_ideas = MAGUF_Member
+        load_focus_tree = MAGUF_focus
+    }
+}

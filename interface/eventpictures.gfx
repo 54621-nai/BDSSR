@@ -1,0 +1,15 @@
+spriteTypes = {
+	#事件图片
+	spriteType = {
+		name = "GFX_Event_MCW1"
+		textureFile = "gfx/interface/events/GFX_MCW1.png"
+	}
+	spriteType = {
+		name = "GFX_Event_MCW2"
+		textureFile = "gfx/interface/events/GFX_MCW2.png"
+	}
+	spriteType = {
+		name = "GFX_Event_MCW3"
+		textureFile = "gfx/interface/events/GFX_MCW3.png"
+	}	
+}

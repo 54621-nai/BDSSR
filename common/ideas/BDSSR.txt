@@ -1,0 +1,71 @@
+ideas = {
+	country = {
+		MCW_joker = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea MCW_joker"}
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = GFX_idea_MCW_joker
+
+			modifier = {
+				army_org_factor = -0.05
+				monthly_population = 0.05
+				gdp_growth_modifier = -0.01
+			}
+		}
+
+		MCW_bad_logistics = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea MCW_bad_logistics"}
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = GFX_idea_MCW_bad_logistics
+			
+			modifier = {
+				army_org_factor = -0.05
+			}
+		}
+		MCW_ghost = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea MCW_ghost"}
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = GFX_idea_MCW_ghost
+
+			modifier = {
+				stability_factor = -0.05
+				army_org_factor = -0.05
+			}
+		}
+
+		MCW_Wehrmacht_SS = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea MCW_Wehrmacht_SS"}
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = GFX_idea_MCW_Wehrmacht_SS
+
+			modifier = {
+				stability_factor = -0.05
+				army_org_factor = 0.05
+			}
+		}		
+		MCW_fearness = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea MCW_fearness"}
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = GFX_idea_MCW_fearness
+
+			modifier = {
+				stability_factor = -0.05
+				conscription_factor = -0.08
+			}
+		}
+	}
+}

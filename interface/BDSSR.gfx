@@ -1,0 +1,243 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_communist_military_communism_subtype"
+		textureFile = "gfx/interface/ideologies/communist_military_communism_subtype.png"
+		legacy_lazy_load = no
+	}
+    spriteType = {
+		name = "GFX_MAGUF_Member"
+		textureFile = "gfx/interface/factions/MAGUF_Member.png"
+		legacy_lazy_load = no
+	}
+    spriteType = {
+		name = "GFX_VCG_emergency_status"
+		textureFile = "gfx/interface/national_focus/VCG_emergency_status.dds"
+	}
+    spriteType = {
+		name = "GFX_MAGUF_an_emergency_call"
+		textureFile = "gfx/interface/national_focus/MAGUF_an_emergency_call.dds"
+	}
+
+	#莫斯考国策-MCW
+	spriteType = {
+		name = "GFX_MCW_the_end_n_the_begin"
+		textureFile = "gfx/interface/national_focus/MCW_the_end_n_the_begin.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_report_works"
+		textureFile = "gfx/interface/national_focus/MCW_report_works.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_Intra-party_dissent"
+		textureFile = "gfx/interface/national_focus/MCW_Intra-party_dissent.dds"
+	}
+
+	spriteType = {
+		name = "GFX_MCW_the_partisan_is_free"
+		textureFile = "gfx/interface/national_focus/MCW_the_partisan_is_free.dds"
+	}
+
+	spriteType = {
+		name = "GFX_MCW_strengthen_the_wall"
+		textureFile = "gfx/interface/national_focus/MCW_strengthen_the_wall.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_sneaky_collaborator"
+		textureFile = "gfx/interface/national_focus/MCW_sneaky_collaborator.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_make_a_deal"
+		textureFile = "gfx/interface/national_focus/MCW_make_a_deal.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_open_a_back_door"
+		textureFile = "gfx/interface/national_focus/MCW_open_a_back_door.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_strengthen_rural_management"
+		textureFile = "gfx/interface/national_focus/MCW_strengthen_rural_management.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_prepare_well"
+		textureFile = "gfx/interface/national_focus/MCW_prepare_well.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_there_r_nets_everywhere"
+		textureFile = "gfx/interface/national_focus/MCW_there_r_nets_everywhere.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_kill_them"
+		textureFile = "gfx/interface/national_focus/MCW_kill_them.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_the_operation_sweeper"
+		textureFile = "gfx/interface/national_focus/MCW_the_operation_sweeper.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_Vologda"
+		textureFile = "gfx/interface/national_focus/MCW_Vologda.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_groky"
+		textureFile = "gfx/interface/national_focus/MCW_groky.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_samara"
+		textureFile = "gfx/interface/national_focus/MCW_samara.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_go_back_home"
+		textureFile = "gfx/interface/national_focus/MCW_go_back_home.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_drive_Gorinich"
+		textureFile = "gfx/interface/national_focus/MCW_drive_Gorinich.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_the_gover"
+		textureFile = "gfx/interface/national_focus/MCW_the_gover.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_the_grand_chessboard"
+		textureFile = "gfx/interface/national_focus/MCW_the_grand_chessboard.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_dummy_liberal"
+		textureFile = "gfx/interface/national_focus/MCW_dummy_liberal.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_dummy_communist"
+		textureFile = "gfx/interface/national_focus/MCW_dummy_communist.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_power_from_lit"
+		textureFile = "gfx/interface/national_focus/MCW_power_from_lit.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_the_slave"
+		textureFile = "gfx/interface/national_focus/MCW_the_slave.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_good_report"
+		textureFile = "gfx/interface/national_focus/MCW_good_report.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_bad_reality"
+		textureFile = "gfx/interface/national_focus/MCW_bad_reality.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_small_cost"
+		textureFile = "gfx/interface/national_focus/MCW_small_cost.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_glory_from_slavery"
+		textureFile = "gfx/interface/national_focus/MCW_glory_from_slavery.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_the_army"
+		textureFile = "gfx/interface/national_focus/MCW_the_army.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_control_forest"
+		textureFile = "gfx/interface/national_focus/MCW_control_forest.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_nothing_is_free"
+		textureFile = "gfx/interface/national_focus/MCW_nothing_is_free.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_no_escape"
+		textureFile = "gfx/interface/national_focus/MCW_no_escape.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_order_from_blood"
+		textureFile = "gfx/interface/national_focus/MCW_order_from_blood.dds"
+	}
+	spriteType = {
+		name = "GFX_MCW_gm_mosc"
+		textureFile = "gfx/interface/national_focus/MCW_gm_mosc.dds"
+	}
+    #MCW--idea
+    spriteType = {
+        name = "GFX_idea_MCW_joker"
+        textureFile = "gfx/interface/ideas/MCW_joker.png"
+    }
+    spriteType = {
+        name = "GFX_idea_MCW_ghost"
+        textureFile = "gfx/interface/ideas/MCW_ghost.png"
+    }
+	spriteType = {
+        name = "GFX_idea_MCW_bad_logistics"
+        textureFile = "gfx/interface/ideas/MCW_bad_logistics.png"
+    }
+    spriteType = {
+        name = "GFX_idea_MCW_fearness"
+        textureFile = "gfx/interface/ideas/MCW_fearness.png"
+    }
+    spriteType = {
+        name = "GFX_idea_MCW_Wehrmacht_SS"
+        textureFile = "gfx/interface/ideas/MCW_Wehrmacht_SS.png"
+    }
+
+	#VCG--游击队国策
+	spriteType = {
+		name = "GFX_VCG_beginning_of_all"
+		textureFile = "gfx/interface/national_focus/VCG_begining_of_all.dds"
+	}
+	spriteType = {
+		name = "GFX_VCG_enclasp_our_weapon"
+		textureFile = "gfx/interface/national_focus/VCG_enclasp_our_weapon.dds"
+	}
+	spriteType = {
+		name = "GFX_VCG_show_our_weapon"
+		textureFile = "gfx/interface/national_focus/VCG_show_our_weapon.dds"
+	}
+	spriteType = {
+		name = "GFX_VCG_fuck_reich"
+		textureFile = "gfx/interface/national_focus/VCG_fuck_reich.dds"
+	}
+	spriteType = {
+		name = "GFX_VCG_union"
+		textureFile = "gfx/interface/national_focus/VCG_union.dds"
+	}
+	spriteType = {
+		name = "GFX_VCG_togetherness"
+		textureFile = "gfx/interface/national_focus/VCG_togetherness.dds"
+	}
+	spriteType = {
+		name = "GFX_VCG_hope"
+		textureFile = "gfx/interface/national_focus/VCG_hope.dds"
+	}
+	spriteType = {
+		name = "GFX_VCG_march_to_victory"
+		textureFile = "gfx/interface/national_focus/VCG_march_to_victory.dds"
+	}
+	spriteType = {
+		name = "GFX_VCG_wait_and_fight"
+		textureFile = "gfx/interface/national_focus/VCG_wait_and_fight.dds"
+	}
+	spriteType = {
+		name = "GFX_VCG_quickly_hit"
+		textureFile = "gfx/interface/national_focus/VCG_quickly_hit.dds"
+	}
+	spriteType = {
+		name = "GFX_VCG_last_battle"
+		textureFile = "gfx/interface/national_focus/VCG_last_battle.dds"
+	}
+	spriteType = {
+		name = "GFX_VCG_revenge"
+		textureFile = "gfx/interface/national_focus/VCG_revenge.dds"
+	}
+	spriteType = {
+		name = "GFX_VCG_for_people"
+		textureFile = "gfx/interface/national_focus/VCG_for_people.dds"
+	}
+	spriteType = {
+		name = "GFX_VCG_new_start"
+		textureFile = "gfx/interface/national_focus/VCG_new_start.dds"
+	}
+	spriteType = {
+		name = "GFX_VCG_bright_future"
+		textureFile = "gfx/interface/national_focus/VCG_bright_future.dds"
+	}
+}

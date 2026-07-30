@@ -1,0 +1,207 @@
+add_namespace = MCW_main_story
+#庆贺新年
+country_event = {
+	id = MCW_main_story.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW_main_story.1"}
+
+	title = MCW_main_story.1.t
+	desc = MCW_main_story.1.d
+    picture = GFX_Event_MCW1
+	is_triggered_only = yes
+	 
+
+	option = {
+		name = MCW_main_story.1.a
+		country_event = {
+			id = MCW_main_story.2
+			day = 5
+		}
+	}
+}
+#姐夫の一天
+country_event = {
+	id = MCW_main_story.2
+
+	title = MCW_main_story.2.t
+	desc = MCW_main_story.2.d
+	picture = GFX_Event_MCW2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW_main_story.2"}
+
+	is_triggered_only = yes
+	 
+
+	option = {
+		name = MCW_main_story.2.a
+		country_event = {
+			id = MCW_main_story.5
+		}
+	}
+}
+#一封报告
+country_event = {
+	id = MCW_main_story.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW_main_story.3"}
+
+	title = MCW_main_story.3.t
+	desc = MCW_main_story.3.d
+	picture = GFX_Event_MCW3
+
+	is_triggered_only = yes
+	 
+
+	option = {
+		name = MCW_main_story.3.a
+	}
+}
+#游击队员
+country_event = {
+	id = MCW_main_story.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW_main_story.4"}
+
+	title = MCW_main_story.4.t
+	desc = MCW_main_story.4.d
+
+	is_triggered_only = yes
+	 	
+
+	option = {
+		name = MCW_main_story.4.a
+	}
+}
+#踢皮球
+country_event = {
+	id = MCW_main_story.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW_main_story.5"}
+
+	title = MCW_main_story.5.t
+	desc = MCW_main_story.5.d
+
+	is_triggered_only = yes
+	 
+
+	option = {
+		name = MCW_main_story.5.a
+	}
+}
+#换防
+country_event = {
+	id = MCW_main_story.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW_main_story.6"}
+
+	title = MCW_main_story.6.t
+	desc = MCW_main_story.6.d
+
+	is_triggered_only = yes
+	 
+
+	option = {
+		name = MCW_main_story.6.a
+	}
+}
+#会议
+country_event = {
+	id = MCW_main_story.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW_main_story.7"}
+
+	title = MCW_main_story.7.t
+	desc = MCW_main_story.7.d
+
+	is_triggered_only = yes
+	 
+
+	option = {
+		name = MCW_main_story.7.a
+	}
+}
+#戈尔巴乔夫与卡舍的谈话
+country_event = {
+	id = MCW_main_story.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW_main_story.8"}
+
+	title = MCW_main_story.8.t
+	desc = MCW_main_story.8.t
+
+	is_triggered_only = yes
+
+	option = {
+		name = MCW_main_story.8.a
+		#莫斯科派系平衡中 合作者 影响力-5
+		country_event = {id = MCW_main_story.10 days = 5}
+	}
+}
+#卡舍的日记
+country_event = {
+	id = MCW_main_story.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW_main_story.9"}
+
+	title = MCW_main_story.9.t
+	desc = MCW_main_story.9.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = MCW_main_story.9.a
+		add_stability = 0.05
+	}
+}
+#致梅德韦杰夫
+country_event = {
+	id = MCW_main_story.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event MCW_main_story.10"}
+
+	title = MCW_main_story.10.t
+	desc = MCW_main_story.10.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = MCW_main_story.10.a
+	}
+	opt1on = {
+		name = MCW_main_story.10.b
+		country_event = { id = MCW_main_story.11 days = 5}
+	}
+}
+#会面
+country_event = {
+	id = MCW_main_story.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event MCW_main_story.11"}
+
+	title = MCW_main_story.11.t
+	desc = MCW_main_story.11.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = MCW_main_story.11.a
+		#戈尔巴乔夫 将从 合作者 变为 内应
+	}
+}
+#清剿之后
+country_event = {
+	id = MCW_main_story.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event MCW_main_story.12"}
+
+	title = MCW_main_story.12.t
+	desc = MCW_main_story.12.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = MCW_main_story.12.a
+	}
+}
+#新兵训练
+country_event = {
+	id = MCW_main_story.13
+	immediate = { log = "[GetDateText]: [Root.GetName]: event MCW_main_story.13"}
+
+	title = MCW_main_story.13.t
+	desc = MCW_main_story.13.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = MCW_main_story.13.a
+	}
+}

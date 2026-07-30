@@ -1,0 +1,49 @@
+#guiTypes = {
+#	
+#	containerWindowType = {
+#		name = "TNO_MCW_gui_open"
+#		size = { width = 220 height = 128 }
+#		position = { x=0 y=289 }
+#
+#		buttonType ={
+#			name ="MCW_gui_open"
+#			spriteType = "GFX_us_vote_open_button" #没办法我没替换的icon，就这样吧
+#			position = { x=238 y=41 }
+#			pdx_tooltip = "scripted_gui_open_tt_usa_gov"
+#			scale = 0.65
+		#	shortcut = "B"
+#		}
+#		
+#		iconType = {
+#			name = "gui_alert"
+#			spriteType = "GFX_gui_alert"
+#			position = { x=189 y=-16 }
+#		}
+#	}
+#	containerWindowType = {
+#		name = "TNO_MCW_bop_menu_main"
+#		size = { width = 1080 height = 680 }
+#		position = { x=-300 y=80 }
+#		show_position = { x=555 y=80 }
+#		show_animation_type = decelerated
+#		hide_animation_type = accelerated
+#		animation_time = 300
+#		moveable = yes
+#
+#		background = {
+#			name = "Background"
+#			quadTextureSprite ="GFX_tiled_window_1b_no_border" 
+#		}
+#
+#		buttonType = {
+#			name = "MCW_close_button"
+#			position = { x = -32 y = 16 }
+#			quadTextureSprite ="GFX_crt_closebutton"
+#			buttonFont = "Main_14_black"
+#			shortcut = "ESCAPE"
+#			Orientation = "UPPER_RIGHT"
+#			clicksound = click_close
+#			pdx_tooltip = "CLOSE"
+#		}
+#	}
+#}

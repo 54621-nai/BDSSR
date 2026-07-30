@@ -1,0 +1,10 @@
+MCW_gui_open_eff = {
+    if = {
+        limit = { NOT= { has_country_flag = MCW_power_dec_on } }
+        set_country_flag = MCW_power_dec_on
+    }
+    else_if = {
+        limit = { has_country_flag = MCW_power_dec_on }
+        clr_country_flag = MCW_power_dec_on
+    }
+}

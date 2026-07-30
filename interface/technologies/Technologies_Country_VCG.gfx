@@ -1,0 +1,336 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_VCG_artillery_1945_medium"
+		texturefile = "gfx/interface/technologies/RUS_Artillery_45.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_VCG_artillery_1950_medium"
+		texturefile = "gfx/interface/technologies/RUS_Artillery_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_VCG_artillery_1970_medium"
+		texturefile = "gfx/interface/technologies/RUS_Artillery_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_VCG_artillery_1990_medium"
+		texturefile = "gfx/interface/technologies/RUS_Artillery_90.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_VCG_NSB_artillery_1945_medium"
+		texturefile = "gfx/interface/technologies/RUS_Artillery_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_artillery_1950_medium"
+		texturefile = "gfx/interface/technologies/RUS_Artillery_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_artillery_1970_medium"
+		texturefile = "gfx/interface/technologies/RUS_Artillery_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_RUS_NSB_artillery_1990_medium"
+		texturefile = "gfx/interface/technologies/VCG_Artillery_90.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_VCG_infantry_kit_1_medium"
+		texturefile = "gfx/interface/technologies/RUS_36_KitC.dds"
+	}
+	SpriteType = {
+		name = "GFX_VCG_infantry_kit_2_medium"
+		texturefile = "gfx/interface/technologies/RUS_45_KitC.dds"
+	}
+	SpriteType = {
+		name = "GFX_VCG_infantry_kit_6_medium"
+		texturefile = "gfx/interface/technologies/RUS_70_KitA.dds"
+	}
+	SpriteType = {
+		name = "GFX_VCG_infantry_weapons_2_medium"
+		texturefile = "gfx/interface/technologies/RUS_Infantry_45.dds"
+	}
+
+
+
+	SpriteType = {
+		name = "GFX_VCG_antiair_1945_medium"
+		texturefile = "gfx/interface/technologies/RUS_AntiAir_45.dds"
+		
+	}
+
+	SpriteType = {
+		name = "GFX_VCG_antiair_1950_medium"
+		texturefile = "gfx/interface/technologies/RUS_AntiAir_50.dds"
+		
+	}
+	SpriteType = {
+		name = "GFX_VCG_antiair_1970_medium"
+		texturefile = "gfx/interface/technologies/RUS_AntiAir_70.dds"
+		
+	}
+	SpriteType = {
+		name = "GFX_VCG_antiair_1990_medium"
+		texturefile = "gfx/interface/technologies/RUS_AntiAir_90.dds"
+		
+	}
+
+	SpriteType = {
+		name = "GFX_VCG_NSB_antiair_1945_medium"
+		texturefile = "gfx/interface/technologies/RUS_AntiAir_45.dds"
+		
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_antiair_1950_medium"
+		texturefile = "gfx/interface/technologies/RUS_AntiAir_50.dds"
+		
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_antiair_1970_medium"
+		texturefile = "gfx/interface/technologies/RUS_AntiAir_70.dds"
+		
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_antiair_1990_medium"
+		texturefile = "gfx/interface/technologies/RUS_AntiAir_90.dds"
+		
+	}
+
+	SpriteType = {
+		name = "GFX_VCG_anti_air_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/RUS_AntiAir_45.dds"
+		
+	}
+	SpriteType = {
+		name = "GFX_VCG_anti_air_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/RUS_AntiAir_50.dds"
+		
+	}
+	SpriteType = {
+		name = "GFX_VCG_anti_air_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/RUS_AntiAir_70.dds"
+		
+	}
+	SpriteType = {
+		name = "GFX_GVCGanti_air_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/RUS_AntiAir_90.dds"
+		
+	}
+
+	## VCG TANKS ##
+
+	SpriteType = {
+		name = "GFX_VCG_MBT_1945_medium"
+		texturefile = "gfx/interface/technologies/RUS_MBT_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_VCG_MBT_1950_medium"
+		texturefile = "gfx/interface/technologies/T-34-85.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_MBT_1960_medium"
+		texturefile = "gfx/interface/technologies/T-54-1.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_MBT_1970_medium"
+		texturefile = "gfx/interface/technologies/T-55AM_Model.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_MBT_1980_medium"
+		texturefile = "gfx/interface/technologies/T-72B-M1.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_MBT_1990_medium"
+		texturefile = "gfx/interface/technologies/T-95BM.png"
+	}
+
+	# NSB TECHS #
+	SpriteType = {
+		name = "GFX_VCG_NSB_MBT_1945_medium"
+		texturefile = "gfx/interface/technologies/RUS_MBT_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_MBT_1950_medium"
+		texturefile = "gfx/interface/technologies/T-34-85.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_MBT_1960_medium"
+		texturefile = "gfx/interface/technologies/T-54-1.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_MBT_1970_medium"
+		texturefile = "gfx/interface/technologies/T-55AM_Model.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_MBT_1980_medium"
+		texturefile = "gfx/interface/technologies/T-72B-M1.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_MBT_1990_medium"
+		texturefile = "gfx/interface/technologies/T-95BM.png"
+	}
+
+	## VCG IFVs ##
+
+	SpriteType = {
+		name = "GFX_VCG_IFV_1945_medium"
+		texturefile = "gfx/interface/technologies/RUS_IFV_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_VCG_IFV_1950_medium"
+		texturefile = "gfx/interface/technologies/T-70.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_IFV_1960_medium"
+		texturefile = "gfx/interface/technologies/PT-76.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_IFV_1970_medium"
+		texturefile = "gfx/interface/technologies/BMP-2.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_IFV_1980_medium"
+		texturefile = "gfx/interface/technologies/BMD-4.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_IFV_1990_medium"
+		texturefile = "gfx/interface/technologies/MOSCOW-1.png"
+	}
+
+	# NSB TECHS #
+
+	SpriteType = {
+		name = "GFX_VCG_NSB_IFV_1945_medium"
+		texturefile = "gfx/interface/technologies/RUS_IFV_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_IFV_1950_medium"
+		texturefile = "gfx/interface/technologies/T-70.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_IFV_1960_medium"
+		texturefile = "gfx/interface/technologies/PT-76.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_IFV_1970_medium"
+		texturefile = "gfx/interface/technologies/BMP-2.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_IFV_1980_medium"
+		texturefile = "gfx/interface/technologies/BMD-4.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_IFV_1990_medium"
+		texturefile = "gfx/interface/technologies/MOSCOW-1.png"
+	}
+
+    # APC
+
+	SpriteType = {
+		name = "GFX_VCG_APC_1945_medium"
+		texturefile = "gfx/interface/technologies/RUS_APC_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_VCG_APC_1950_medium"
+		texturefile = "gfx/interface/technologies/BTR-50.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_APC_1960_medium"
+		texturefile = "gfx/interface/technologies/BTR-60.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_APC_1970_medium"
+		texturefile = "gfx/interface/technologies/BTR-70.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_APC_1980_medium"
+		texturefile = "gfx/interface/technologies/BTR-80.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_APC_1990_medium"
+		texturefile = "gfx/interface/technologies/BTR-90.png"
+	}
+
+	#NSB
+
+	SpriteType = {
+		name = "GFX_VCG_NSB_APC_1945_medium"
+		texturefile = "gfx/interface/technologies/RUS_APC_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_APC_1950_medium"
+		texturefile = "gfx/interface/technologies/BTR-50.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_APC_1960_medium"
+		texturefile = "gfx/interface/technologies/BTR-60.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_APC_1970_medium"
+		texturefile = "gfx/interface/technologies/BTR-70.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_APC_1980_medium"
+		texturefile = "gfx/interface/technologies/BTR-80.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_APC_1990_medium"
+		texturefile = "gfx/interface/technologies/BTR-90.png"
+	}
+
+	## ARMORED CARS ##
+
+	SpriteType = {
+		name = "GFX_VCG_AC_1945_medium"
+		texturefile = "gfx/interface/technologies/RUS_AC_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_VCG_AC_1950_medium"
+		texturefile = "gfx/interface/technologies/BRDM-1.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_AC_1960_medium"
+		texturefile = "gfx/interface/technologies/BRDM-2.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_AC_1970_medium"
+		texturefile = "gfx/interface/technologies/9P148.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_AC_1980_medium"
+		texturefile = "gfx/interface/technologies/BRDM-3.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_AC_1990_medium"
+		texturefile = "gfx/interface/technologies/GAZ.png"
+	}
+
+	# NSB
+
+	SpriteType = {
+		name = "GFX_VCG_NSB_AC_1945_medium"
+		texturefile = "gfx/interface/technologies/RUS_AC_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_AC_1950_medium"
+		texturefile = "gfx/interface/technologies/BRDM-1.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_AC_1960_medium"
+		texturefile = "gfx/interface/technologies/BRDM-2.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_AC_1970_medium"
+		texturefile = "gfx/interface/technologies/9P148.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_AC_1980_medium"
+		texturefile = "gfx/interface/technologies/BRDM-3.png"
+	}
+	SpriteType = {
+		name = "GFX_VCG_NSB_AC_1990_medium"
+		texturefile = "gfx/interface/technologies/GAZ.png"
+	}
+
+}

@@ -1,0 +1,11 @@
+#孩子们这真的不是bop
+MCW_blance_of_power = {
+	scripted_gui = "MCW_bopgui"
+	allowed = {
+		original_tag = MCW
+	}
+	visible = {
+		has_country_flag = MCW_power_dec_on
+	}
+	visible_when_empty = yes
+}

@@ -1,0 +1,24 @@
+focus_tree = {
+	id = MCW_Begin
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MCW
+		}
+	}
+	default = no
+	shared_focus = MCW_the_end_n_the_begin
+}
+focus_tree = {
+	id = MCW_2nd_phrase
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = MCW
+		}
+	}
+	default = no
+	shared_focus = MCW_2nd_years
+}

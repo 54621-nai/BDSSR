@@ -1,0 +1,11 @@
+GER_debug_category = {
+    BDSSR_start_riot = {
+		fire_only_once = no
+
+		cost = 0
+
+        complete_effect = {
+            BDSSR_riot_start = yes
+        }
+    }
+}

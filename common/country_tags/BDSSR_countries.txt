@@ -1,0 +1,5 @@
+MGG = "countries/East Europe.txt"
+MTL = "countries/East Europe.txt"
+RBL = "countries/East Europe.txt"
+TTG = "countries/East Europe.txt"
+VCG = "countries/East Europe.txt"

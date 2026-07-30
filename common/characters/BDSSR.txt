@@ -1,0 +1,62 @@
+characters = {
+    MGG_Yevgeny_Kulchitsky = {
+        name = MGG_Yevgeny_Kulchitsky
+        portraits = {
+            civilian = { large = "gfx/leaders/MGG_Yevgeny_Kulchitsky.png"}
+        }
+        country_leader = {
+			desc = ""
+			ideology = communist_military_communism_subtype
+			expire = "1999.1.1.1"
+			id = -1
+		}
+    }
+    MTL_Nicolay_Kuznetsov = {
+        name = MTL_Nicolay_Kuznetsov
+        portraits = {
+            civilian = { large = "gfx/leaders/MTL_Nicolay_Kuznetsov.png"}
+        }
+        country_leader = {
+			desc = ""
+			ideology = communist_military_communism_subtype
+			expire = "1999.1.1.1"
+			id = -1
+		}
+    }
+    RBL_Pyotr_Masherov = {
+        name = RBL_Pyotr_Masherov
+        portraits = {
+            civilian = { large = "gfx/leaders/RBL_Pyotr_Masherov.png"}
+        }
+        country_leader = {
+			desc = ""
+			ideology = communist_bolshevism_subtype
+			expire = "1999.1.1.1"
+			id = -1
+		}
+    }
+    TTG_Vadim_Maffosov = {
+        name = TTG_Vadim_Maffosov
+        portraits = {
+            civilian = { large = "gfx/leaders/TTG_Vadim_Maffosov.png"}
+        }
+        country_leader = {
+			desc = ""
+			ideology = despotism_partisan_movement_subtype
+			expire = "1999.1.1.1"
+			id = -1
+		}
+    }
+    VCG_Dmitry_Medvedev = {
+        name = VCG_Dmitry_Medvedev
+        portraits = {
+            civilian = { large = "gfx/leaders/VCG_Dmitry_Medvedev.png"}
+        }
+        country_leader = {
+			desc = ""
+			ideology = communist_military_communism_subtype
+			expire = "1999.1.1.1"
+			id = -1
+		}
+    }
+}

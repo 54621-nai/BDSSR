@@ -1,0 +1,553 @@
+shared_focus = {
+	id = MCW_the_end_n_the_begin
+	x = 6
+	y = 0
+	cost = 0.5
+	icon = GFX_MCW_the_end_n_the_begin
+
+	completion_reward = {
+		add_political_power = 50
+		country_event = {
+			id = MCW_main_story.1
+			days = 5
+		}
+	}
+}
+
+shared_focus = {
+	id = MCW_report_works
+	x = -2
+	y = 1
+	cost = 1
+	icon = GFX_MCW_report_works
+ 
+	prerequisite = {
+		focus = MCW_the_end_n_the_begin
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+	completion_reward = {
+		add_ideas = { MCW_joker }
+		add_political_power = 50
+		country_event = {
+			id = MCW_main_story.3
+		}
+	}
+}
+
+shared_focus = {
+	id = MCW_the_partisan_is_free
+	x = 0
+	y = 2
+	cost = 0.5
+	icon = GFX_focus_MCW_the_partisan_is_free
+ 
+	prerequisite = {
+		focus = MCW_the_end_n_the_begin
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+
+	completion_reward = {
+		add_political_power = 50
+		country_event = { id = MCW_main_story.4	}
+	}
+}
+
+shared_focus = {
+	id = MCW_strengthen_the_wall
+	x = 2
+	y = 1
+	cost = 1
+	icon = GFX_MCW_strengthen_the_wall
+ 
+	prerequisite = {
+		focus = MCW_the_end_n_the_begin
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+
+	completion_reward = {
+		hidden_effect = { load_oob = "MCW_1" }
+		custom_effect_tooltip = "MCW_4bu2tan_tt"
+		country_event = { id = MCW_main_story.6 }
+	}
+
+}
+
+shared_focus = {
+	id = MCW_Intra-party_dissent
+	x = -2
+	y = 2
+	cost = 0.5
+	icon = GFX_MCW_Intra-party_dissent
+ 
+	prerequisite = {
+		focus = MCW_report_works
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+
+	completion_reward = {
+		add_political_power = 50
+		country_event = { id = MCW_main_story.7}
+		MCW_gui_open = yes
+		custom_effect_tooltip = "MCW_power_dec_on_tt"
+	}
+}
+
+shared_focus = {
+	id = MCW_sneaky_collaborator
+	x = 2
+	y = 2
+	cost = 0.5
+	icon = GFX_MCW_sneaky_collaborator
+ 
+	prerequisite = {
+		focus = MCW_strengthen_the_wall
+	}
+	prerequisite = {
+		focus = MCW_Intra-party_dissent
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+	
+	completion_reward = {
+		country_event = { id = MCW_main_story.8}
+		add_political_power = 50
+	}
+}
+shared_focus = {
+	id = MCW_make_a_deal
+	x = -1
+	y = 3
+	cost = 1
+	icon = GFX_MCW_make_a_deal
+ 
+	prerequisite = {
+		focus = MCW_Intra-party_dissent
+	}
+	prerequisite = {
+		focus = MCW_the_partisan_is_free
+	}
+	prerequisite = {
+		focus = MCW_sneaky_collaborator
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+
+	completion_reward = {
+		add_political_power = 50
+		#国防军 与 党卫军 之间的关系将得到缓解
+	}
+}
+shared_focus = {
+	id = MCW_open_a_back_door
+	x = 1
+	y = 3
+	cost = 2
+	icon = GFX_MCW_open_a_back_door
+ 
+	prerequisite = {
+		focus = MCW_Intra-party_dissent
+	}
+	prerequisite = {
+		focus = MCW_the_partisan_is_free
+	}
+	prerequisite = {
+		focus = MCW_sneaky_collaborator
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+
+	completion_reward = {
+		country_event = { id = MCW_main_story.9 }
+		add_political_power = 50
+		#合作者 的影响力将上升
+	}
+}
+shared_focus = {
+	id = MCW_strengthen_rural_management
+	x = 0
+	y = 4
+	cost = 3
+	icon = GFX_MCW_strengthen_rural_management
+ 
+	prerequisite = {
+		focus = MCW_make_a_deal
+	}
+	prerequisite = {
+		focus = MCW_open_a_back_door
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+
+	completion_reward = {
+		add_stability = 0.05
+		add_political_power = 50
+		country_event = { id = MCW_main_story.12 days = 5 }
+	}
+}
+shared_focus = {
+	id = MCW_prepare_well
+	x = -1
+	y = 5
+	cost = 2
+	icon = GFX_MCW_prepare_well
+ 
+	prerequisite = {
+		focus = MCW_strengthen_rural_management
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+
+	completion_reward = {
+		add_political_power = 50
+		add_stability = 0.03
+		country_event = { id = MCW_main_story.13 days = 5}
+	}
+}
+
+shared_focus = {
+	id = MCW_there_r_nets_everywhere
+	x = 1
+	y = 5
+	cost = 2
+	icon = GFX_MCW_there_r_nets_everywhere
+ 
+	prerequisite = {
+		focus = MCW_strengthen_rural_management
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+}
+
+shared_focus = {
+	id = MCW_kill_them
+	x = 0
+	y = 6
+	cost = 1
+	icon = GFX_MCW_kill_them
+ 
+	prerequisite = {
+		focus = MCW_prepare_well
+	}
+	prerequisite = {
+		focus = MCW_there_r_nets_everywhere
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+
+	completion_reward = {
+		add_political_power = 50
+		#游击队的影响力将被削弱
+	}
+}
+shared_focus = {
+	id = MCW_the_operation_sweeper
+	x = 0
+	y = 7
+	cost = 2
+	icon = GFX_MCW_the_operation_sweeper
+ 
+	prerequisite = {
+		focus = MCW_kill_them
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+
+	completion_reward = {
+		#解锁对三家军阀的攻伐
+	}
+}
+shared_focus = {
+	id = MCW_Vologda
+	x = -2
+	y = 8
+	cost = 1
+	icon = GFX_MCW_Vologda
+ 
+	prerequisite = {
+		focus = MCW_the_operation_sweeper
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+}
+shared_focus = {
+	id = MCW_groky
+	x = 0
+	y = 8
+	cost = 1
+	icon = GFX_MCW_groky
+ 
+	prerequisite = {
+		focus = MCW_the_operation_sweeper
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+}
+shared_focus = {
+	id = MCW_samara
+	x = 2
+	y = 8
+	cost = 1
+	icon = GFX_MCW_samara
+ 
+	prerequisite = {
+		focus = MCW_the_operation_sweeper
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+}
+shared_focus = {
+	id = MCW_go_back_home
+	x = 0
+	y = 9
+	cost = 0.5
+	icon = GFX_MCW_go_back_home
+ 
+	prerequisite = {
+		focus = MCW_Vologda
+	}
+	prerequisite = {
+		focus = MCW_groky
+	}
+	prerequisite = {
+		focus = MCW_samara
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+}
+
+shared_focus = {
+	id = MCW_drive_Gorinich
+	x = 0
+	y = 10
+	cost = 1
+	icon = GFX_MCW_drive_Gorinich
+ 
+	prerequisite = {
+		focus = MCW_go_back_home
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+}
+
+shared_focus = {
+	id = MCW_the_slave
+	x = 0
+	y = 11
+	cost = 0.5
+	icon = GFX_MCW_the_slave
+ 
+	prerequisite = {
+		focus = MCW_drive_Gorinich
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+
+	completion_reward = {
+		add_political_power = 50
+	}
+}
+shared_focus = {
+	id = MCW_the_gover
+	x = -4
+	y = 11
+	cost = 0.5
+	icon = GFX_MCW_the_gover
+ 
+	prerequisite = {
+		focus = MCW_drive_Gorinich
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+	
+	completion_reward = {
+		add_political_power = 50
+	}
+}
+shared_focus = {
+	id = MCW_the_grand_chessboard
+	x = -4
+	y = 12
+	cost = 3
+	icon = GFX_MCW_the_grand_chessboard
+ 
+	prerequisite = {
+		focus = MCW_the_gover
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+}
+shared_focus = {
+	id = MCW_dummy_liberal
+	x = -5
+	y = 13
+	cost = 2
+	icon = GFX_MCW_dummy_liberal
+ 
+	prerequisite = {
+		focus = MCW_the_grand_chessboard
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+}
+shared_focus = {
+	id = MCW_dummy_communist
+	x = -3
+	y = 13
+	cost = 2
+	icon = GFX_MCW_dummy_communist
+ 
+	prerequisite = {
+		focus = MCW_the_grand_chessboard
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+}
+shared_focus = {
+	id = MCW_power_from_lit
+	x = -4
+	y = 14
+	cost = 1
+	icon = GFX_MCW_power_from_lit
+ 
+	prerequisite = {
+		focus = MCW_dummy_liberal
+	}
+	prerequisite = {
+		focus = MCW_dummy_communist
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+}
+shared_focus = {
+	id = MCW_good_report
+	x = -1
+	y = 12
+	cost = 2
+	icon = GFX_MCW_good_report
+ 
+	prerequisite = {
+		focus = MCW_the_slave
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+}
+shared_focus = {
+	id = MCW_bad_reality
+	x = 1
+	y = 12
+	cost = 2
+	icon = GFX_MCW_bad_reality
+ 
+	prerequisite = {
+		focus = MCW_the_slave
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+
+	completion_reward = {
+		add_political_power = 50
+		#合作者的影响力将降低
+	}
+}
+shared_focus = {
+	id = MCW_small_cost
+	x = 0
+	y = 13
+	cost = 2
+	icon = GFX_MCW_small_cost
+ 
+	prerequisite = {
+		focus = MCW_good_report
+	}
+	prerequisite = {
+		focus = MCW_bad_reality
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+}
+
+shared_focus = {
+	id = MCW_glory_from_slavery
+	x = 0
+	y = 14
+	cost = 1
+	icon = GFX_MCW_glory_from_slavery
+ 
+	prerequisite = {
+		focus = MCW_small_cost
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+}
+
+shared_focus = {
+	id = MCW_the_army
+	x = 4
+	y = 11
+	cost = 0.5
+	icon = GFX_MCW_the_army
+ 
+	prerequisite = {
+		focus = MCW_drive_Gorinich
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+
+	completion_reward = {
+		add_political_power = 50
+	}
+}
+shared_focus = {
+	id = MCW_control_forest
+	x = 4
+	y = 12
+	cost = 2
+	icon = GFX_MCW_control_forest
+ 
+	prerequisite = {
+		focus = MCW_the_army
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+}
+shared_focus = {
+	id = MCW_nothing_is_free
+	x = 3
+	y = 13
+	cost = 3
+	icon = GFX_MCW_nothing_is_free
+ 
+	mutually_exclusive = {
+		focus = MCW_no_escape
+	}
+	prerequisite = {
+		focus = MCW_control_forest
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+}
+shared_focus = {
+	id = MCW_no_escape
+	x = 5
+	y = 13
+	cost = 3
+	icon = GFX_MCW_no_escape
+ 
+	mutually_exclusive = {
+		focus = MCW_nothing_is_free
+	}
+	prerequisite = {
+		focus = MCW_control_forest
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+}
+
+shared_focus = {
+	id = MCW_order_from_blood
+	x = 4
+	y = 14
+	cost = 1
+	icon = GFX_MCW_order_from_blood
+ 
+	prerequisite = {
+		focus = MCW_nothing_is_free
+		focus = MCW_no_escape
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+}
+
+shared_focus = {
+	id = MCW_gm_mosc
+	x = 0
+	y = 15
+	cost = 1
+	icon = GFX_MCW_gm_mosc
+ 
+	prerequisite = {
+		focus = MCW_power_from_lit
+	}
+	prerequisite = {
+		focus = MCW_order_from_blood
+	}
+	prerequisite = {
+		focus = MCW_glory_from_slavery
+	}
+	relative_position_id = MCW_the_end_n_the_begin
+}
+
+
+

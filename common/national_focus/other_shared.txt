@@ -1,0 +1,10 @@
+shared_focus = {
+	id = MAGUF_an_emergency_call
+	icon = GFX_focus_MAGUF_an_emergency_call
+	cost = 2
+	x = 0
+	y = 0
+	completion_reward = {
+
+	}
+}

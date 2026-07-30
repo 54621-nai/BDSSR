@@ -1,0 +1,17 @@
+focus_tree = {
+	id = VCG_focus
+	country = {
+		factor = 0
+	}
+	default = no
+	shared_focus = VCG_emergency_status
+}
+
+focus_tree = {
+    id = MAGUF_focus
+    country = {
+        factor = 0 
+    }
+    default = no
+    shared_focus = MAGUF_an_emergency_call
+}
