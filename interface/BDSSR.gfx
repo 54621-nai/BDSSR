@@ -179,6 +179,16 @@ spriteTypes = {
         textureFile = "gfx/interface/ideas/MCW_Wehrmacht_SS.png"
     }
 
+	#WRS--idea
+	spriteType = {
+		name = "GFX_idea_WRS_good_communication"
+		textureFile = "gfx/interface/ideas/WRS_good_communication.png"
+	}
+	spriteType = {
+		name = "GFX_idea_WRS_backstage_battlefield"
+		textureFile = "gfx/interface/ideas/WRS_backstage_battlefield.png"
+	}
+
 	#VCG--游击队国策
 	spriteType = {
 		name = "GFX_VCG_beginning_of_all"
@@ -239,5 +249,30 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_VCG_bright_future"
 		textureFile = "gfx/interface/national_focus/VCG_bright_future.dds"
+	}
+
+	spriteType = {
+		name = "WRS_dec_gui_bg"
+		textureFile = "gfx/interface/bg.png"
+	}
+	spriteType = {
+		name = "WRS_dec_gui_radio_on"
+		textureFile = "gfx/interface/radio_on.png"
+	}
+	spriteType = {
+		name = "WRS_dec_gui_radio_off"
+		textureFile = "gfx/interface/radio_off.png"
+	}
+	spriteType = {
+		name = "WRS_dec_gui_power_gain_off"
+		textureFile = "gfx/interface/power_gain_off.png"
+	}
+	spriteType = {
+		name = "WRS_dec_gui_power_gain_on"
+		textureFile = "gfx/interface/power_gain_on.png"
+	}
+	spriteType = {
+		name = "WRS_dec_gui_doc"
+		textureFile = "gfx/interface/doc_on.png"
 	}
 }

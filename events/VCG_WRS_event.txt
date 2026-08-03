@@ -1,0 +1,46 @@
+add_namespace = WRS_main_story
+add_namespace = VCG_main_story
+
+###WRS###
+country_event = {
+	id = WRS_main_story.0
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WRS_main_story.0"}
+	title = WRS_main_story.0.t
+	desc = WRS_main_story.0.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = WRS_main_story.0.a
+		country_event = { id = WRS_main_story.1 }
+	}
+}
+
+country_event = {
+	id = WRS_main_story.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WRS_main_story.1"}
+	title = WRS_main_story.1.t
+	desc = WRS_main_story.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = WRS_main_story.1.a
+		#WRS解锁决议“援助被遗忘的同志”
+		#set_country_flag = WRS_decision_unlock
+	}
+}
+
+country_event = {
+	id = VCG_main_story.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event VCG_main_story.1" }
+	title = VCG_main_story.1.t
+	desc = VCG_main_story.1.desc
+	picture = GFX_report_event_AFG_people
+
+	is_triggered_only = yes
+
+	option = {
+		name = VCG_main_story.1.a
+	}
+}

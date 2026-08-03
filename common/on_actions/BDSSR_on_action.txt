@@ -1,0 +1,9 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			WRS = { country_event = { id = WRS_main_story.1 days = 182 } 
+					add_ideas = { WRS_good_communication WRS_backstage_battlefield }
+			}
+		}
+	}
+}

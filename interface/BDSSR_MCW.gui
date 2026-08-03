@@ -1,4 +1,4 @@
-#guiTypes = {
+guiTypes = {
 #	
 #	containerWindowType = {
 #		name = "TNO_MCW_gui_open"
@@ -46,4 +46,46 @@
 #			pdx_tooltip = "CLOSE"
 #		}
 #	}
-#}
+
+	containerWindowType = {
+		name = WRS_dec_gui
+		size = { width = 100%% height = 450 }
+
+		iconType = {
+			name = "Background"
+			spriteType = "WRS_dec_gui_bg"
+			position = { x = 10 y = 0 }
+			
+		}
+
+		#iconType = {
+		#	name = "abd"
+		#	spriteType = "VCG_dec_gui"
+		#	position = { x = 0 y = 450 }
+		#}
+
+		buttonType = {
+			name = "WRS_dec_gui_radio_on"
+			quadTextureSprite = "WRS_dec_gui_radio_on"
+			position = { x = 39 y = 231 }
+		}
+		
+		buttonType = {
+			name = "WRS_dec_gui_radio_off"
+			quadTextureSprite = "WRS_dec_gui_radio_off"
+			position = { x = 50 y = 47 }
+		}
+
+		buttonType = {
+			name = "WRS_dec_gui_power_gain_off"
+			quadTextureSprite = "WRS_dec_gui_power_gain_off"
+			position = { x = 269 y = 234 }
+		}
+
+		buttonType = {
+			name = "WRS_dec_gui_doc"
+			quadTextureSprite = "WRS_dec_gui_doc"
+			position = { x = 163 y = 360}
+		}
+	}
+}

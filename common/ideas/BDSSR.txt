@@ -67,5 +67,33 @@ ideas = {
 				conscription_factor = -0.08
 			}
 		}
+
+		#WRS/VCG
+		WRS_good_communication = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea WRS_good_communication"}
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = GFX_idea_WRS_good_communication
+
+			modifier = {
+				army_org_factor = 0.05
+			}
+		}
+
+		WRS_backstage_battlefield = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea WRS_backstage_battlefield"}
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = GFX_idea_WRS_backstage_battlefield
+
+			modifier = {
+				army_org_factor = 0.1
+				stability_factor = 0.05
+			}
+		}
 	}
 }

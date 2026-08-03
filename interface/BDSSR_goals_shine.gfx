@@ -1,10 +1,10 @@
 spriteTypes = {
 	SpriteType = {
 		name = "GFX_VCG_emergency_status_shine"
-		texturefile = "gfx/interface/national_focus/VCG_emergency_status.png"
+		texturefile = "gfx/interface/national_focus/VCG_emergency_status.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/national_focus/VCG_emergency_status.png"
+			animationmaskfile = "gfx/interface/national_focus/VCG_emergency_status.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -17,7 +17,7 @@ spriteTypes = {
 		}
 	
 		animation = {
-			animationmaskfile = "gfx/interface/national_focus/VCG_emergency_status.png"
+			animationmaskfile = "gfx/interface/national_focus/VCG_emergency_status.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -32,10 +32,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_MAGUF_an_emergency_call_shine"
-		texturefile = "gfx/interface/national_focus/MAGUF_an_emergency_call.png"
+		texturefile = "gfx/interface/national_focus/MAGUF_an_emergency_call.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/national_focus/MAGUF_an_emergency_call.png"
+			animationmaskfile = "gfx/interface/national_focus/MAGUF_an_emergency_call.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -48,7 +48,7 @@ spriteTypes = {
 		}
 	
 		animation = {
-			animationmaskfile = "gfx/interface/national_focus/MAGUF_an_emergency_call.png"
+			animationmaskfile = "gfx/interface/national_focus/MAGUF_an_emergency_call.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1155,7 +1155,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/national_focusVCG_show_our_weapon.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/national_focus/.dds"			
+			animationmaskfile = "gfx/interface/national_focus/VCG_show_our_weapon.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1184,7 +1184,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_VCG_enclasp_our_weapon_shine"
-		texturefile = "gfx/interface/national_focus/.dds"			
+		texturefile = "gfx/interface/national_focus/VCG_enclasp_our_weapon.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/national_focus/VCG_enclasp_our_weapon.dds"			

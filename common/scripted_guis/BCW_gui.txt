@@ -1,4 +1,4 @@
-#scripted_gui = {
+scripted_gui = {
 	#那个在政治界面的gui按钮
 	#TNO_MCW_opener = {
 #		context_type = player_context
@@ -44,4 +44,19 @@
 #		}
 #	}
 
-#}
+	WRS_dec_gui = {
+		context_type = decision_category
+		window_name = "WRS_dec_gui"
+		
+		triggers = {
+			WRS_dec_gui_radio_on_visible = {
+				has_country_flag = WRS_dec_gui_radio_on
+			}
+			WRS_dec_gui_radio_off_visible = {
+				NOT = { has_country_flag = WRS_dec_gui_radio_on }
+			}
+		}
+	}
+
+
+}
