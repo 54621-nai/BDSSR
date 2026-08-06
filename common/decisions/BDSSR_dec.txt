@@ -1,0 +1,256 @@
+MCW_blance_of_power = {
+    WRS_doc_Vologda = {
+        cost = 50
+        days_remove = 14
+        
+        visible = { has_country_flag = WRS_dec_gui_doc }
+        available = { NOT = { has_country_flag = WRS_task_on } }
+        
+        complete_effect = {
+            set_country_flag = WRS_task_on
+        }
+
+        remove_effect = {
+            random_list = {
+                20 = { country_event = { id = WRS_support.1 } }
+                80 = { 
+                    send_equipment = { equipment = infantry_equipment amount = 350 target = VCG }
+                    send_equipment = { equipment = infantry_equipment amount = 150 target = VOL } 
+                }
+            }
+            clr_country_flag = WRS_task_on
+        }
+    }
+    WRS_doc_Onega = {
+        cost = 50
+        days_remove = 14
+        
+        visible = { has_country_flag = WRS_dec_gui_doc }
+        available = { NOT = { has_country_flag = WRS_task_on } }
+
+        complete_effect = {
+            set_country_flag = WRS_task_on
+        }
+        remove_effect = {
+            random_list = {
+                60 = { country_event = { id = WRS_support.1 } }
+                40 = { send_equipment = { equipment = infantry_equipment amount = 250  target = VCG } }
+            }
+            clr_country_flag = WRS_task_on
+        }
+    }
+    WRS_doc_food = {
+        cost = 50
+        days_remove = 14
+        
+        visible = { has_country_flag = WRS_dec_gui_doc }
+        #available = { NOT = { has_country_flag = WRS_task_on } }
+
+        complete_effect = {
+            set_country_flag = WRS_task_on
+        }
+        remove_effect = {
+            custom_effect_tooltip = WRS_doc_food_tt
+            clr_country_flag = WRS_task_on
+        }
+    }
+    WRS_doc_medcine = {
+        cost = 50
+        days_remove = 14
+        
+        visible = { has_country_flag = WRS_dec_gui_doc }
+        #available = { NOT = { has_country_flag = WRS_task_on } }
+
+        complete_effect = {
+            set_country_flag = WRS_task_on
+        }
+        remove_effect = {
+            custom_effect_tooltip = WRS_doc_medcine_tt
+            clr_country_flag = WRS_task_on
+            VCG = { conscription_factor = 0.01}
+        }
+    }
+
+
+
+
+    WRS_pg_attack = {
+        cost = 50
+        days_remove = 14
+        
+        visible = { has_country_flag = WRS_dec_gui_power_gain_on }
+        available = { NOT = { has_country_flag = WRS_task_on } }
+
+        complete_effect = {
+            set_country_flag = WRS_task_on
+        }
+        remove_effect = {
+            clr_country_flag = WRS_task_on
+        }
+    }
+    WRS_pg_plan = {
+        cost = 50
+        days_remove = 14
+        
+        visible = { has_country_flag = WRS_dec_gui_power_gain_on }
+        available = { NOT = { has_country_flag = WRS_task_on } }
+
+        complete_effect = {
+            set_country_flag = WRS_task_on
+        }
+        remove_effect = {
+            clr_country_flag = WRS_task_on
+        }
+    }
+    WRS_pg_item = {
+        cost = 50
+        days_remove = 14
+        
+        visible = { has_country_flag = WRS_dec_gui_power_gain_on }
+        available = { NOT = { has_country_flag = WRS_task_on } }
+
+        complete_effect = {
+            set_country_flag = WRS_task_on
+        }
+        remove_effect = {
+            clr_country_flag = WRS_task_on
+        }
+    }
+
+
+
+
+    WRS_radio_attack = {
+        cost = 50
+        days_remove = 14
+        
+        visible = { has_country_flag = WRS_dec_gui_radio_on }
+        available = { NOT = { has_country_flag = WRS_task_on } }
+
+        complete_effect = {
+            set_country_flag = WRS_task_on
+        }
+        remove_effect = {
+            clr_country_flag = WRS_task_on
+        }
+    }
+    WRS_radio_defense = {
+        cost = 50
+        days_remove = 14
+        
+        visible = { has_country_flag = WRS_dec_gui_radio_on }
+        available = { NOT = { has_country_flag = WRS_task_on } }
+
+        complete_effect = {
+            set_country_flag = WRS_task_on
+        }
+        remove_effect = {
+            clr_country_flag = WRS_task_on
+        }
+    }
+    WRS_radio_hero = {
+        cost = 50
+        days_remove = 14
+        
+        visible = { has_country_flag = WRS_dec_gui_radio_on }
+        available = { NOT = { has_country_flag = WRS_task_on } }
+
+        complete_effect = {
+            set_country_flag = WRS_task_on
+        }
+        remove_effect = {
+            clr_country_flag = WRS_task_on
+        }
+    }
+    WRS_radio_ideology = {
+        cost = 50
+        days_remove = 14
+        
+        visible = { has_country_flag = WRS_dec_gui_radio_on }
+        available = { NOT = { has_country_flag = WRS_task_on } }
+
+        complete_effect = {
+            set_country_flag = WRS_task_on
+        }
+        remove_effect = {
+            clr_country_flag = WRS_task_on
+        }
+    }
+    WRS_radio_people = {
+        cost = 50
+        days_remove = 14
+        
+        visible = { has_country_flag = WRS_dec_gui_radio_on }
+        available = { NOT = { has_country_flag = WRS_task_on } }
+
+        complete_effect = {
+            set_country_flag = WRS_task_on
+        }
+        remove_effect = {
+            clr_country_flag = WRS_task_on
+        }
+    }
+    WRS_radio_victory = {
+        cost = 50
+        days_remove = 14
+        
+        visible = { has_country_flag = WRS_dec_gui_radio_on }
+        available = { NOT = { has_country_flag = WRS_task_on } }
+
+        complete_effect = {
+            set_country_flag = WRS_task_on
+        }
+        remove_effect = {
+            clr_country_flag = WRS_task_on
+        }
+    }
+
+
+
+    WRS_disconnect = {
+        cost = 50
+        days_remove = 14
+        
+        visible = { 
+            OR= { 
+                has_country_flag = WRS_dec_gui_radio_on 
+                has_country_flag = WRS_dec_gui_power_gain_on
+            }
+        }
+        available = { NOT = { has_country_flag = WRS_task_on } }
+
+        complete_effect = {
+            set_country_flag = WRS_task_on
+        }
+        remove_effect = {
+            clr_country_flag = WRS_task_on
+            set_country_flag = WRS_disconnect
+        }
+    }
+
+    WRS_connect = {
+        cost = 50
+        days_remove = 14
+        
+        visible = { 
+            OR= { 
+                has_country_flag = WRS_dec_gui_radio_on 
+                has_country_flag = WRS_dec_gui_power_gain_on
+            }
+        }
+        available = { 
+            AND = {
+                NOT = { has_country_flag = WRS_task_on }
+                has_country_flag = WRS_disconnect
+            }
+        }
+
+        complete_effect = {
+            set_country_flag = WRS_task_on
+        }
+        remove_effect = {
+            clr_country_flag = WRS_task_on
+            clr_country_flag = WRS_disconnect
+        }
+    }
+}

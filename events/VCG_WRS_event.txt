@@ -1,4 +1,5 @@
 add_namespace = WRS_main_story
+add_namespace = WRS_support
 add_namespace = VCG_main_story
 
 ###WRS###
@@ -42,5 +43,20 @@ country_event = {
 
 	option = {
 		name = VCG_main_story.1.a
+	}
+}
+
+#暂时无文本
+country_event = {
+	id =  WRS_support.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event WRS_support.1" }
+	title = WRS_support.1.t
+	desc = WRS_support.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = WRS_support.1.a
+		custom_effect_tooltip = abcd_tt
 	}
 }

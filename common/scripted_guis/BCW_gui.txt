@@ -51,9 +51,65 @@ scripted_gui = {
 		triggers = {
 			WRS_dec_gui_radio_on_visible = {
 				has_country_flag = WRS_dec_gui_radio_on
+				NOT = { has_country_flag = WRS_dec_gui_power_gain_on }
+				NOT = { has_country_flag = WRS_dec_gui_doc }
 			}
 			WRS_dec_gui_radio_off_visible = {
 				NOT = { has_country_flag = WRS_dec_gui_radio_on }
+			}
+			WRS_dec_gui_power_gain_on_visible = {
+				has_country_flag = WRS_dec_gui_power_gain_on
+				NOT = { has_country_flag = WRS_dec_gui_radio_on }
+				NOT = { has_country_flag = WRS_dec_gui_doc }
+			}
+			WRS_dec_gui_power_gain_off_visible = {
+				NOT = { has_country_flag = WRS_dec_gui_power_gain_on }
+			}
+		}
+
+		effects = {
+			WRS_dec_gui_radio_off_click = {
+				set_country_flag = WRS_dec_gui_radio_on
+				if = {
+					limit = { has_country_flag = WRS_dec_gui_doc}
+					clr_country_flag = WRS_dec_gui_doc
+				}
+				else_if = {
+					limit = { has_country_flag = WRS_dec_gui_power_gain_on}
+					clr_country_flag = WRS_dec_gui_power_gain_on
+				}
+			}
+			WRS_dec_gui_power_gain_off_click = {
+				set_country_flag = WRS_dec_gui_power_gain_on
+				if = {
+					limit = { has_country_flag = WRS_dec_gui_doc}
+					clr_country_flag = WRS_dec_gui_doc
+				}
+				else_if = {
+					limit = { has_country_flag = WRS_dec_gui_radio_on}
+					clr_country_flag = WRS_dec_gui_radio_on
+				}
+			}
+			WRS_dec_gui_radio_on_click = {
+				clr_country_flag = WRS_dec_gui_radio_on
+			}
+			WRS_dec_gui_power_gain_on_click = {
+				clr_country_flag = WRS_dec_gui_power_gain_on
+			}
+			WRS_dec_gui_doc_click = {
+				if = {
+					limit = { has_country_flag = WRS_dec_gui_doc }
+					clr_country_flag = WRS_dec_gui_doc
+				}
+				else = { set_country_flag = WRS_dec_gui_doc }
+				if = {
+					limit = { has_country_flag = WRS_dec_gui_radio_on }
+					clr_country_flag = WRS_dec_gui_radio_on
+				}
+				else_if = {
+					limit = { has_country_flag = WRS_dec_gui_power_gain_on }
+					clr_country_flag = WRS_dec_gui_power_gain_on
+				}
 			}
 		}
 	}

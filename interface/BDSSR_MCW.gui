@@ -67,7 +67,7 @@ guiTypes = {
 		buttonType = {
 			name = "WRS_dec_gui_radio_on"
 			quadTextureSprite = "WRS_dec_gui_radio_on"
-			position = { x = 39 y = 231 }
+			position = { x = 50 y = 47 }
 		}
 		
 		buttonType = {
@@ -79,6 +79,12 @@ guiTypes = {
 		buttonType = {
 			name = "WRS_dec_gui_power_gain_off"
 			quadTextureSprite = "WRS_dec_gui_power_gain_off"
+			position = { x = 269 y = 234 }
+		}
+
+		buttonType = {
+			name = "WRS_dec_gui_power_gain_on"
+			quadTextureSprite = "WRS_dec_gui_power_gain_on"
 			position = { x = 269 y = 234 }
 		}
 
