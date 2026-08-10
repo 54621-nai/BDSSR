@@ -6,6 +6,34 @@ GER_debug_category = {
 
         complete_effect = {
             BDSSR_riot_start = yes
+            
+        }
+    }
+    BDSSR_abc = {
+        fire_only_once = no
+
+        cost = 0
+
+        complete_effect = {
+            SWP = {
+                transfer_state = 250
+                transfer_state = 755
+                transfer_state = 850
+                add_ideas = {
+                    SWP_fxxk_samara
+                    SWP_union_of_workers
+                    SWP_good_friends
+                }
+            } 
+            VCG ={
+                annex_country = {
+                    target = MCW
+                }
+                annex_country = {
+                    target = GOR
+                }
+                set_cosmetic_tag = VCG_SOV
+            }
         }
     }
 }

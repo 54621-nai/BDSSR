@@ -2268,3 +2268,7 @@ VCG = {
 	color = rgb { 113 0 22 }
 	color_ui = rgb { 113 0 22 }
 }
+SWP = {
+	color = rgb { 175 15 28 }
+	color_ui = rgb { 175 15 28 }
+}

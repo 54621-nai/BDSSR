@@ -95,5 +95,47 @@ ideas = {
 				stability_factor = 0.05
 			}
 		}
+
+
+		SWP_fxxk_samara = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SWP_fxxk_samara"}
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = GFX_idea_SWP_fxxk_samara
+
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
+
+		SWP_union_of_workers = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SWP_union_of_workers"}
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = GFX_idea_SWP_union_of_workers
+
+			modifier = {
+				stability_factor = 0.05
+				army_org_factor = 0.05
+			}
+		}
+
+		SWP_good_friends = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SWP_good_friends"}
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = GFX_idea_SWP_good_friends
+
+			modifier = {
+				conscription_factor = 0.08
+				army_org_factor = 0.1
+			}
+		}
 	}
 }

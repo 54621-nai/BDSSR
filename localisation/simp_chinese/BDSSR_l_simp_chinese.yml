@@ -6,11 +6,33 @@
  RBL_Pyotr_Masherov: "彼得·马舍罗夫"
  TTG_Vadim_Maffosov: "瓦季姆·马特罗索夫"
  VCG_Dmitry_Medvedev: "德米特里·梅德韦杰夫"
+
  MGG: "米佳游击队"
  MTL: "特种化摩托旅"
  RBL: "白俄罗斯游击队"
  TTG: "第“十三”民间游击队"
  VCG: "胜利者游击队"
+ SWP: "萨马拉工人社会主义共和国"
+ VCG_SOV: "莫斯科苏维埃社会主义共和国"
+ VCG_SOV_DEF: "莫斯科苏维埃社会主义共和国"
+
+ SWP_SCP: "萨马拉共产党"
+ SWP_SCP_bol_long: "萨马拉共产党(联合派)"
+ SWP_SCP_maxl_long: "萨马拉共产党(马列主义)"
+ SWP_SCP_mao_long: "萨马拉共产党(毛主义)"
+ SWP_SCP_socialist_long: "萨马拉共产党(社会主义)"
+ SWP_socialist_democratic_party: "萨马拉社会民主党"
+ SWP_Boris_Mikhailovich_Gunko: "鲍里斯·米哈伊洛维奇·贡科"
+ 
+
+ SWP_union_of_workers: "团结的工人"
+ SWP_union_pf_workers_desc: ""
+ SWP_fxxk_samara: "铲除俄奸"
+ SWP_fxxk_samara_desc: "叛徒弗拉索夫曾经是祖国的一名陆军中将，在伟大的卫国战争中被德国人俘获。然而与其他宁死不屈的苏联英雄不同，弗拉索夫反倒是背叛了苏维埃祖国，转身与德国人勾连，成立了所谓的俄罗斯解放军，长期负责莫斯科专员辖区的治安工作，心甘情愿的给德国人当狗。\n\n在西俄罗斯战争结束过后，他带领手下的俄罗斯伪军盘踞于萨马拉地区，仗着手上有几根枪杆子，便肆无忌惮的欺压人民，无恶不作。而现在也是时候让我们将这群叛徒送上绞刑架了！"
+ SWP_good_friends: "布尔什维克的援助"
+ SWP_good_friends_desc: "" 
+
+
  Moscow_Anti_Germany_United_Front: "莫斯科反德联合阵线"
  RBL_communist_party: "白俄罗斯共产党"
  MGG_communist_party: "米佳游击队指挥部"

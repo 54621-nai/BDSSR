@@ -59,4 +59,16 @@ characters = {
 			id = -1
 		}
     }
+    SWP_Boris_Mikhailovich_Gunko = {
+        name = SWP_Boris_Mikhailovich_Gunko
+        portraits = {
+            civilian = { large = "gfx/leaders/SWP_Boris_Mikhailovich_Gunko.png"}
+        }
+        country_leader = {
+			desc = ""
+			ideology = communist_mao_zedong_thought_subtype
+			expire = "1999.1.1.1"
+			id = -1
+		}
+    }
 }

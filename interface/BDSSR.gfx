@@ -251,6 +251,21 @@ spriteTypes = {
 		textureFile = "gfx/interface/national_focus/VCG_bright_future.dds"
 	}
 
+	#SWP--idea
+	spriteType = {
+		name = "GFX_idea_SWP_union_of_workers"
+		textureFile = "gfx/interface/ideas/SWP_union_of_workers.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SWP_fxxk_samara"
+		textureFile = "gfx/interface/ideas/SWP_fxxk_samara.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SWP_good_friends"
+		textureFile = "gfx/interface/ideas/SWP_good_friends.png"
+	}
+
+
 	spriteType = {
 		name = "WRS_dec_gui_bg"
 		textureFile = "gfx/interface/bg.png"
