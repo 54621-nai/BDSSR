@@ -69,7 +69,7 @@
  MCW_gm_mosc_desc: "MCW_gm_mosc_desc"
  MCW_4bu2tan_tt: "在莫斯考部署2个边防师"
  MCW_power_dec_on_tt: "“解锁决议 “莫斯科专员辖区派系平衡”"
- MCW_blance_of_power: "援助被遗忘的同志"
+ #MCW_blance_of_power: "援助被遗忘的同志"
  
  #2阶段
  MCW_2nd_years: "又是一年来到"

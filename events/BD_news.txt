@@ -1,0 +1,35 @@
+add_namespace = BD_news
+
+news_event = {
+	id = BD_news.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: news BD_news.1"}
+
+	title = BD_news.1.t
+	desc = BD_news.1.d
+	picture = GFX_BD_news_1
+
+	is_triggered_only = yes
+
+	option = {
+		name = BD_news.1.a1
+		trigger = {
+			OR = {
+				tag = SAM
+				tag = GER
+			} 
+		}
+		ai_chance = { factor = 20 }
+
+	}
+
+	option = {
+		name = BD_news.1.a2
+		trigger = {
+			NOT = {
+				tag = SAM
+				tag = GER
+			}
+		}
+		ai_chance = { factor = 20 }
+	}
+}

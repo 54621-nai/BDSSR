@@ -1,48 +1,4 @@
 scripted_gui = {
-	#那个在政治界面的gui按钮
-	#TNO_MCW_opener = {
-#		context_type = player_context
-#		parent_window_token = politics_tab 
-#		window_name = "TNO_MCW_gui_open"
-#
-#		visible = {
-#			tag = MCW
-#		}
-#
-#		effects = {
-#			MCW_gui_open_click = {
-#				MCW_gui_open_eff = yes
-#			}
-#		}
-
-		#triggers = {
-		#	gui_alert_visible = {
-		#		
-		#	}
-		#}
-#	}
-	#这个是主界面
-#	TNO_MCW_bop_Open_Main = {
-#		context_type = player_context
-#		parent_window_token = "TNO_MCW_gui_open"
-#		window_name = "TNO_MCW_bop_menu_main"
-#
-#		visible = {
-#			has_country_flag = MCW_power_dec_on
-#		}
-#
-#		effect = {
-#			MCW_close_button_click = {
-#				MCW_gui_open_eff = yes
-#			}
-#		}
-#
-#		triggers = {
-#			partisan_visible = {
-#				
-#			}
-#		}
-#	}
 
 	WRS_dec_gui = {
 		context_type = decision_category
@@ -114,5 +70,10 @@ scripted_gui = {
 		}
 	}
 
+
+	VCG_dec_gui_1 = {
+		context_type = decision_category
+		window_name = "VCG_dec_gui_1"
+	}
 
 }

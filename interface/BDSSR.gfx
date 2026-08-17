@@ -290,4 +290,19 @@ spriteTypes = {
 		name = "WRS_dec_gui_doc"
 		textureFile = "gfx/interface/doc_on.png"
 	}
+	spriteType = {
+		name = "GFX_VCG_dec_gui_header"
+		textureFile = "gfx/interface/VCG_dec_gui_hd.png"
+	}
+
+
+
+
+
+
+	#新闻-news
+	spriteType = {
+		name = GFX_BD_news_1
+		textureFile = "gfx/interface/events/BD_news_1.png"
+	}
 }

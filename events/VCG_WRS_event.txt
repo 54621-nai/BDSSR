@@ -36,7 +36,7 @@ country_event = {
 	id = VCG_main_story.1
 	immediate = { log = "[GetDateText]: [Root.GetName]: event VCG_main_story.1" }
 	title = VCG_main_story.1.t
-	desc = VCG_main_story.1.desc
+	desc = VCG_main_story.1.d
 	picture = GFX_report_event_AFG_people
 
 	is_triggered_only = yes
@@ -46,12 +46,27 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = VCG_main_story.30
+	immediate = { log = "[GetDateText]: [Root.GetName]: event VCG_main_story.30"}
+	title = VCG_main_story.30.t
+	desc = VCG_main_story.30.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = VCG_main_story.30.a
+		#解锁新的援助决议(支援萨马拉)
+	}
+}
+
 #暂时无文本
 country_event = {
 	id =  WRS_support.1
 	immediate = { log = "[GetDateText]: [Root.GetName]: event WRS_support.1" }
 	title = WRS_support.1.t
 	desc = WRS_support.1.d
+	picture = GFX_VCG_dec_gui_header
 
 	is_triggered_only = yes
 
@@ -60,3 +75,5 @@ country_event = {
 		custom_effect_tooltip = abcd_tt
 	}
 }
+
+

@@ -1,5 +1,5 @@
 capital = 250
-recruit_character = SWP_Boris_Mikhailovich_Gunko
+recruit_character = SWP_Grigory_Isayev
 fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
 
 add_ideas = {
@@ -165,27 +165,27 @@ set_party_name = {
 }
 
 create_country_leader = {
-	name = "SWP_Boris_Mikhailovich_Gunko"
+	name = "SWP_Grigory_Isayev"
 	ideology = communist_1
-	picture = "gfx/leaders/CPC/CPgfx/leaders/SWP_Boris_Mikhailovich_Gunko.png"
+	picture = "gfx/leaders/SWP_Grigory_Isayev.dds"
 	desc = ""
 }
 create_country_leader = {
-	name = "SWP_Boris_Mikhailovich_Gunko"
+	name = "SWP_Grigory_Isayev"
 	ideology = communist_2
-	picture = "gfx/leaders/CPC/CPgfx/leaders/SWP_Boris_Mikhailovich_Gunko.png"
+	picture = "gfx/leaders/SWP_Grigory_Isayev.dds"
 	desc = ""
 }
 create_country_leader = {
-	name = "SWP_Boris_Mikhailovich_Gunko"
+	name = "SWP_Grigory_Isayev"
 	ideology = socialist
-	picture = "gfx/leaders/CPC/CPgfx/leaders/SWP_Boris_Mikhailovich_Gunko.png"
+	picture = "gfx/leaders/SWP_Grigory_Isayev.dds"
 	desc = ""
 }
 create_country_leader = {
-	name = "SWP_Boris_Mikhailovich_Gunko"
+	name = "SWP_Grigory_Isayev"
 	ideology = progressivism
-	picture = "gfx/leaders/CPC/CPgfx/leaders/SWP_Boris_Mikhailovich_Gunko.png"
+	picture = "gfx/leaders/SWP_Grigory_Isayev.dds"
 	desc = ""
 }
 

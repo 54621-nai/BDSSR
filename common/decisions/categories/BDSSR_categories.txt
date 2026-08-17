@@ -1,0 +1,24 @@
+WRS_help = {
+	scripted_gui = "WRS_dec_gui"
+	allowed = {
+		original_tag = WRS
+	}
+	visible = {
+		always = yes
+	}
+	visible_when_empty = yes
+}
+
+VCG_help = {
+	#scripted_gui = "VCG_dec_gui_1"
+	#picture = GFX_VCG_dec_gui_header
+	allowed = {
+		tag = VCG
+	}
+	visible = {
+		tag = VCG
+		MCW = { exists = no }
+	}
+	visible_when_empty = yes
+}
+

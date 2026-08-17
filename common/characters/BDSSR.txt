@@ -29,8 +29,9 @@ characters = {
             civilian = { large = "gfx/leaders/RBL_Pyotr_Masherov.png"}
         }
         country_leader = {
-			desc = ""
+			desc = "RBL_Pyotr_Masherov_d"
 			ideology = communist_bolshevism_subtype
+            traits = { traits_Masherov }
 			expire = "1999.1.1.1"
 			id = -1
 		}
@@ -43,6 +44,7 @@ characters = {
         country_leader = {
 			desc = ""
 			ideology = despotism_partisan_movement_subtype
+            traits = {}
 			expire = "1999.1.1.1"
 			id = -1
 		}
@@ -52,21 +54,24 @@ characters = {
         portraits = {
             civilian = { large = "gfx/leaders/VCG_Dmitry_Medvedev.png"}
         }
+        
         country_leader = {
-			desc = ""
+			desc = "VCG_Dmitry_Medvedev_d"
 			ideology = communist_military_communism_subtype
 			expire = "1999.1.1.1"
+            traits = { traits_Medvedev }
 			id = -1
 		}
     }
-    SWP_Boris_Mikhailovich_Gunko = {
-        name = SWP_Boris_Mikhailovich_Gunko
+    SWP_Grigory_Isayev = {
+        name = SWP_Grigory_Isayev
         portraits = {
-            civilian = { large = "gfx/leaders/SWP_Boris_Mikhailovich_Gunko.png"}
+            civilian = { large = "gfx/leaders/SWP_Grigory_Isayev.png"}
         }
         country_leader = {
 			desc = ""
-			ideology = communist_mao_zedong_thought_subtype
+			ideology =  communist_bolshevism_subtype
+            traits = {  }
 			expire = "1999.1.1.1"
 			id = -1
 		}

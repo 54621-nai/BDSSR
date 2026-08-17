@@ -15,6 +15,9 @@ GER_debug_category = {
         cost = 0
 
         complete_effect = {
+            every_country = {
+                news_event = { id = BD_news.1 }
+            }
             SWP = {
                 transfer_state = 250
                 transfer_state = 755

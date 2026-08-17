@@ -1,4 +1,4 @@
-MCW_blance_of_power = {
+WRS_help = {
     WRS_doc_Vologda = {
         cost = 50
         days_remove = 14
@@ -253,4 +253,115 @@ MCW_blance_of_power = {
             clr_country_flag = WRS_disconnect
         }
     }
+}
+
+VCG_help = {
+    VCG_help_1 = {
+        cost = 0
+        days_remove = 7
+        days_re_enable = 7
+
+        custom_cost_trigger = {
+            SWP = { exists = yes }
+		}
+        custom_cost_text = VCG_lote_guns_cost
+
+        available = {
+            SWP = { exists = yes }
+            command_power >19
+        }
+
+        remove_effect = {
+            add_command_power = -20
+            send_equipment = {
+                equipment = infantry_equipment
+                amount = 500
+                target = SWP
+            }
+        }
+    }
+
+    VCG_help_2 = {
+        cost = 50
+        days_remove = 7
+        days_re_enable = 7
+
+        available = {
+            SWP = { exists = yes }
+        }
+
+        remove_effect = {
+            send_equipment = {
+                equipment = artillery_equipment
+                amount = 50
+                target = SWP
+            }
+        }
+    }
+
+    VCG_help_3 = {
+        cost = 50
+        days_remove = 7
+        #fire_only_once = yes
+
+        available = {
+            SWP = { exists = yes }
+        }
+
+        remove_effect = {
+            SWP = {
+                add_stability = 0.05
+            }
+        }
+    }
+
+    VCG_help_4 = {
+        cost = 50
+        days_remove = 20
+        days_re_enable = 7
+        
+        available = {
+            SWP = { exists = yes }
+        }
+
+        remove_effect = {
+            SWP = {
+                add_ideas = { SWP_good_friends }
+            }
+        }
+    }
+
+    VCG_help_5 = {
+        cost = 150
+        days_remove = 30
+
+        available = {
+            SWP = { exists = yes }
+		}
+
+        remove_effect = {
+            SWP = {
+                load_oob = SWP_volunteer
+            }
+        }
+    }
+    VCG_help_6 = {
+        cost = 200
+        days_remove = 7
+        days_re_enable = 7
+
+        available = {
+            SWP = { exists = no }
+        }
+
+        remove_effect = {
+            VCG = { 
+                declare_war_on = {
+                    target = SAM
+                    type = annex_everything
+                }
+            }
+        }
+    }
+
 }
