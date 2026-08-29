@@ -7,4 +7,70 @@ on_actions = {
 			ZZZ = { country_event = { id = WRS_support.1 } }
 		}
 	}
+
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					FROM = {
+						OR = {
+							tag = VCG
+							is_in_faction_with = VCG
+						}
+					}
+					ROOT = {
+						tag = MCW
+					}
+				}
+				event_target:MCWCW_Partizans = {
+						VCG = {
+							annex_country = {
+								target = PREV
+								transfer_troops = yes
+							}
+						}
+				}
+				VCG = {
+					annex_country = {
+						target = MCW
+					}
+					load_focus_tree = VCG_post_unified
+					mark_focus_tree_layout_dirty = yes
+					set_cosmetic_tag = VCG_SOV
+					every_owned_state = {
+						add_core_of = VCG
+					}
+				}
+				set_global_flag = skip_default_capitulation
+			}
+			if = {
+				limit = {
+					ROOT = {
+						OR = {
+							tag = VCG
+							is_in_faction_with = VCG
+						}
+					}
+					FROM = {
+						tag = MCW
+					}
+				}
+				MCW = {
+					annex_country = {
+						target = MCW
+					}
+				}
+
+				event_target:MCWCW_Partizans = {
+						MCW = {
+							annex_country = {
+								target = PREV
+								transfer_troops = no
+							}
+						}
+					}
+				set_global_flag = skip_default_capitulation
+			}
+		}
+	}
 }

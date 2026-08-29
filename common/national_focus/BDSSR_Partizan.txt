@@ -8,6 +8,15 @@ focus_tree = {
 }
 
 focus_tree = {
+	id = VCG_post_unified
+	country = {
+		factor = 0
+	}
+	default = no
+	shared_focus = VCG_back_to_homeland
+}
+
+focus_tree = {
     id = MAGUF_focus
     country = {
         factor = 0 

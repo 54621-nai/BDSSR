@@ -62,8 +62,23 @@ BDSSR_riot_start = {
         transfer_state = 210
         transfer_state = 1441
 
+        load_oob = MCW_1962
+
         every_owned_state = {
             add_core_of = PREV
+        }
+    }
+
+    every_country = {
+        limit = {
+            OR = {
+                is_in_faction_with = VCG
+                tag = VCG
+            }
+        }
+        declare_war_on = {
+            target = MCW
+            type = annex_everything
         }
     }
 
@@ -76,5 +91,7 @@ BDSSR_riot_start = {
         }
         add_ideas = MAGUF_Member
         load_focus_tree = MAGUF_focus
+
+        save_global_event_target_as = MCWCW_Partizans
     }
 }
