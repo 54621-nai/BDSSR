@@ -47,7 +47,6 @@ country_event = { #The Disruption - Hidden Effect Event
 	option = {
 		ai_chance = { factor = 1 }
 		MCW = {
-			set_cosmetic_tag = MCW_Dissapearance
 			econ_leave_sphere = yes
 			delete_unit_template_and_units = { division_template = "Infanterie-Division" disband = yes }
 			delete_unit_template_and_units = { division_template = "Panzer-Division" disband = yes }
@@ -70,12 +69,12 @@ country_event = { #The Disruption - Hidden Effect Event
 			242 = { set_demilitarized_zone = yes }
 			238 = { set_demilitarized_zone = yes }
 			246 = { set_demilitarized_zone = yes }
-			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Anarchic }
-			econ_subtype_change = yes
-			set_temp_variable = { gdp_growth_temp = -5 }
-			econ_gdp_growth_change = yes
+			BDSSR_riot_start = yes
 		}
 		news_event = WORLD_REICH.1600
+		VCG = {
+			change_tag_from = MCW
+		}
 		every_country = {
 			limit = {
 				is_ai = no
@@ -86,7 +85,6 @@ country_event = { #The Disruption - Hidden Effect Event
 				days = 35
 			}
 		}
-		country_event = { id = MCW_Skeleton.4 days = 112 }
 	}
 }
 country_event = { #The Disruption Ends - Hidden Effect Event

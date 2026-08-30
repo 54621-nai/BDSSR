@@ -252,7 +252,7 @@ shared_focus = {
 	y = 10
 	cost = 1
 	icon = GFX_VCG_bright_future
-	
+
 	prerequisite = {
 		focus = VCG_new_start
 	}

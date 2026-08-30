@@ -1,0 +1,661 @@
+shared_focus = {
+	id = VCG_back_to_homeland
+	x = 13
+	y = -4
+	cost = 2
+	icon = GFX_VCG_back_to_homeland
+
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+
+shared_focus = {
+	id = VCG_return_to_normal
+	x = 6
+	y = -3
+	cost = 2
+	icon = GFX_VCG_return_to_normal
+
+	prerequisite = {
+		focus = VCG_liberation_day
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_vast_land_few_people
+	x = 20
+	y = -3
+	cost = 2
+	icon = GFX_VCG_vast_land_few_people
+
+	prerequisite = {
+		focus = VCG_liberation_day
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_forged_into_steel
+	x = 13
+	y = 0
+	cost = 2
+	icon = GFX_VCG_forged_into_steel
+
+	prerequisite = {
+		focus = VCG_liberation_day
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_what_we_have
+	x = 4
+	y = -2
+	cost = 2
+	icon = GFX_VCG_what_we_have
+
+	mutually_exclusive = {
+		focus = VCG_what_we_gained
+	}
+	prerequisite = {
+		focus = VCG_return_to_normal
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_what_we_gained
+	x = 8
+	y = -2
+	cost = 2
+	icon = GFX_VCG_what_we_gained
+
+	mutually_exclusive = {
+		focus = VCG_what_we_have
+	}
+	prerequisite = {
+		focus = VCG_return_to_normal
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_scavenge_west_scavenge_east
+	x = 4
+	y = 0
+	cost = 2
+	icon = GFX_VCG_scavenge_west_scavenge_east
+
+	prerequisite = {
+		focus = VCG_what_we_have
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_receive_white_zone_assets
+	x = 8
+	y = 0
+	cost = 2
+	icon = GFX_VCG_receive_white_zone_assets
+
+	prerequisite = {
+		focus = VCG_what_we_gained
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_inventory_and_cleanup
+	x = 8
+	y = 2
+	cost = 2
+	icon = GFX_VCG_inventory_and_cleanup
+
+	prerequisite = {
+		focus = VCG_receive_white_zone_assets
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_start_production_on_site
+	x = 8
+	y = 4
+	cost = 2
+	icon = GFX_VCG_start_production_on_site
+
+	prerequisite = {
+		focus = VCG_inventory_and_cleanup
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_learn_from_each_others_strengths
+	x = 8
+	y = 6
+	cost = 2
+	icon = GFX_VCG_learn_from_each_others_strengths
+
+	prerequisite = {
+		focus = VCG_start_production_on_site
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_production_decentralization
+	x = 8
+	y = 8
+	cost = 2
+	icon = GFX_VCG_production_decentralization
+
+	prerequisite = {
+		focus = VCG_learn_from_each_others_strengths
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_concentrate_remote_capacity
+	x = 4
+	y = 2
+	cost = 2
+	icon = GFX_VCG_concentrate_remote_capacity
+
+	prerequisite = {
+		focus = VCG_scavenge_west_scavenge_east
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_consolidate_industrial_hubs
+	x = 4
+	y = 4
+	cost = 2
+	icon = GFX_VCG_consolidate_industrial_hubs
+
+	prerequisite = {
+		focus = VCG_concentrate_remote_capacity
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_keep_essence_discard_dross
+	x = 4
+	y = 6
+	cost = 2
+	icon = GFX_VCG_keep_essence_discard_dross
+
+	prerequisite = {
+		focus = VCG_consolidate_industrial_hubs
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_production_centralization
+	x = 4
+	y = 8
+	cost = 2
+	icon = GFX_VCG_production_centralization
+
+	prerequisite = {
+		focus = VCG_keep_essence_discard_dross
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_too_few_qualified_products
+	x = 11
+	y = 1
+	cost = 2
+	icon = GFX_VCG_too_few_qualified_products
+
+	mutually_exclusive = {
+		focus = VCG_too_many_defective_products
+	}
+	prerequisite = {
+		focus = VCG_forged_into_steel
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_seniors_guide_newcomers
+	x = 11
+	y = 3
+	cost = 2
+	icon = GFX_VCG_seniors_guide_newcomers
+
+	prerequisite = {
+		focus = VCG_too_few_qualified_products
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_mentorship_program
+	x = 11
+	y = 5
+	cost = 2
+	icon = GFX_VCG_mentorship_program
+
+	prerequisite = {
+		focus = VCG_seniors_guide_newcomers
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_irregular_training_sessions
+	x = 11
+	y = 7
+	cost = 2
+	icon = GFX_VCG_irregular_training_sessions
+
+	prerequisite = {
+		focus = VCG_mentorship_program
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_call_the_revolutionary_front
+	x = 11
+	y = 9
+	cost = 2
+	icon = GFX_VCG_call_the_revolutionary_front
+
+	prerequisite = {
+		focus = VCG_irregular_training_sessions
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_veterans_iron_fist
+	x = 11
+	y = 11
+	cost = 2
+	icon = GFX_VCG_veterans_iron_fist
+
+	prerequisite = {
+		focus = VCG_call_the_revolutionary_front
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_too_many_defective_products
+	x = 15
+	y = 1
+	cost = 2
+	icon = GFX_VCG_too_many_defective_products
+
+	mutually_exclusive = {
+		focus = VCG_too_few_qualified_products
+	}
+	prerequisite = {
+		focus = VCG_forged_into_steel
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_reorganize_surplus_units
+	x = 15
+	y = 3
+	cost = 2
+	icon = GFX_VCG_reorganize_surplus_units
+
+	prerequisite = {
+		focus = VCG_too_many_defective_products
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_replace_unqualified_officers
+	x = 15
+	y = 5
+	cost = 2
+	icon = GFX_VCG_replace_unqualified_officers
+
+	prerequisite = {
+		focus = VCG_reorganize_surplus_units
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_rewrite_infantry_manual
+	x = 15
+	y = 7
+	cost = 2
+	icon = GFX_VCG_rewrite_infantry_manual
+
+	prerequisite = {
+		focus = VCG_replace_unqualified_officers
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_find_the_revolutionary_front
+	x = 15
+	y = 9
+	cost = 2
+	icon = GFX_VCG_find_the_revolutionary_front
+
+	prerequisite = {
+		focus = VCG_rewrite_infantry_manual
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_hello_dispirited_one
+	x = 15
+	y = 11
+	cost = 2
+	icon = GFX_VCG_hello_dispirited_one
+
+	prerequisite = {
+		focus = VCG_find_the_revolutionary_front
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_population_redirection
+	x = 18
+	y = -2
+	cost = 2
+	icon = GFX_VCG_population_redirection
+
+	mutually_exclusive = {
+		focus = VCG_wanderers_return_home
+	}
+	prerequisite = {
+		focus = VCG_vast_land_few_people
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_assign_by_population_density
+	x = 18
+	y = 0
+	cost = 2
+	icon = GFX_VCG_assign_by_population_density
+
+	prerequisite = {
+		focus = VCG_population_redirection
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_pioneering_campaign
+	x = 18
+	y = 2
+	cost = 2
+	icon = GFX_VCG_pioneering_campaign
+
+	prerequisite = {
+		focus = VCG_assign_by_population_density
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_dismantle_the_concentration_camps
+	x = 18
+	y = 4
+	cost = 2
+	icon = GFX_VCG_dismantle_the_concentration_camps
+
+	prerequisite = {
+		focus = VCG_pioneering_campaign
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_reward_per_head
+	x = 18
+	y = 6
+	cost = 2
+	icon = GFX_VCG_reward_per_head
+
+	prerequisite = {
+		focus = VCG_dismantle_the_concentration_camps
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_raise_the_banners
+	x = 18
+	y = 8
+	cost = 2
+	icon = GFX_VCG_raise_the_banners
+
+	prerequisite = {
+		focus = VCG_reward_per_head
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_wanderers_return_home
+	x = 22
+	y = -2
+	cost = 2
+	icon = GFX_VCG_wanderers_return_home
+
+	mutually_exclusive = {
+		focus = VCG_population_redirection
+	}
+	prerequisite = {
+		focus = VCG_vast_land_few_people
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_repatriate_by_household_register
+	x = 22
+	y = 0
+	cost = 2
+	icon = GFX_VCG_repatriate_by_household_register
+
+	prerequisite = {
+		focus = VCG_wanderers_return_home
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_utilize_on_site
+	x = 22
+	y = 2
+	cost = 2
+	icon = GFX_VCG_utilize_on_site
+
+	prerequisite = {
+		focus = VCG_repatriate_by_household_register
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_transform_the_concentration_camps
+	x = 22
+	y = 4
+	cost = 2
+	icon = GFX_VCG_transform_the_concentration_camps
+
+	prerequisite = {
+		focus = VCG_utilize_on_site
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_social_childcare_subsidies
+	x = 22
+	y = 6
+	cost = 2
+	icon = GFX_VCG_social_childcare_subsidies
+
+	prerequisite = {
+		focus = VCG_transform_the_concentration_camps
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_socialize_production_sites
+	x = 22
+	y = 8
+	cost = 2
+	icon = GFX_VCG_socialize_production_sites
+
+	prerequisite = {
+		focus = VCG_social_childcare_subsidies
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_secure_shipping_lanes
+	x = 13
+	y = 17
+	cost = 2
+	icon = GFX_VCG_secure_shipping_lanes
+
+	prerequisite = {
+		focus = VCG_wandering_about
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
+shared_focus = {
+	id = VCG_wandering_about
+	x = 13
+	y = 14
+	cost = 2
+	icon = GFX_VCG_wandering_about
+
+	prerequisite = {
+		focus = VCG_veterans_iron_fist
+	}
+	prerequisite = {
+		focus = VCG_hello_dispirited_one
+	}
+	prerequisite = {
+		focus = VCG_production_decentralization
+	}
+	prerequisite = {
+		focus = VCG_production_centralization
+	}
+	prerequisite = {
+		focus = VCG_raise_the_banners
+	}
+	prerequisite = {
+		focus = VCG_socialize_production_sites
+	}
+	ai_will_do = {
+		base = 2
+	}
+	
+}
